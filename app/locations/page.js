@@ -8,7 +8,7 @@ export default function Locations() {
 
   useEffect(() => {
     async function fetchLocations() {
-      const response = await fetch("http://localhost:3000/api/locations");
+      const response = await fetch("/api/locations");
       const data = await response.json();
       setLocations(data);
     }
