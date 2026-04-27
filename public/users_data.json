@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "admin",
+    "fullname": "Admin Adminsson",
+    "bookings": [{ "id": 2169631 }]
+  },
+  {
+    "id": 2,
+    "name": "test",
+    "fullname": "Test Testsson",
+    "bookings": []
+  },
+  {
+    "id": 3,
+    "name": "aleks",
+    "fullname": "Aleks C",
+    "bookings": [{ "id": 2169631 }, { "id": 2091817 }, { "id": 2084510 }]
+  },
+  {
+    "id": 4,
+    "name": "halime",
+    "fullname": "Halime T",
+    "bookings": [{ "id": 2169631 }]
+  },
+  {
+    "id": 5,
+    "name": "nayomi",
+    "fullname": "Nayomi A",
+    "bookings": [{ "id": 2169631 }]
+  },
+  {
+    "id": 6,
+    "name": "osman",
+    "fullname": "Osman O",
+    "bookings": [{ "id": 2169631 }]
+  },
+  {
+    "id": 7,
+    "name": "göran",
+    "fullname": "Göran R",
+    "bookings": [{ "id": 2169631 }]
+  }
+]
