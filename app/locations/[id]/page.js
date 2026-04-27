@@ -14,7 +14,7 @@ export default function Location() {
   useEffect(() => {
     async function fetchLocationData() {
       try {
-        const response = await fetch(`http://localhost:3000/api/locations/`);
+        const response = await fetch(`/api/locations/`);
         const allCampingsites = await response.json();
 
         // hitta matchande campingsite/location via ID
