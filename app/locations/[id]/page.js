@@ -17,7 +17,7 @@ export default function Location() {
         const response = await fetch(`http://localhost:3000/api/locations/`);
         const allCampingsites = await response.json();
 
-        // hitta machande campingsite/location via ID
+        // hitta matchande campingsite/location via ID
         const foundLocation = allCampingsites.find((c) => c.id === id);
         if (foundLocation) {
           setCampingsite(foundLocation);
