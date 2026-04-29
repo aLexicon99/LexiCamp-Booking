@@ -14,7 +14,7 @@ export default function Location() {
   useEffect(() => {
     async function fetchLocationData() {
       try {
-        const response = await fetch(`/api/locations/`);
+        const response = await fetch(`/api/locations/`, { cache : 'no-cache' });
         const allCampingsites = await response.json();
 
         // hitta matchande campingsite/location via ID
@@ -50,7 +50,7 @@ export default function Location() {
             </h3>
 
             <div className="bg-gray-200 p-2 rounded-md">
-              <p>{campingsite.shortDescription}</p>
+              <p>{campingsite.description}</p>
             </div>
 
             <div className="flex">
