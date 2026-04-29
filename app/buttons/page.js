@@ -2,25 +2,43 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import "./styles.css";
+import Button from "@/components/Button";
+
 export default function Buttons() {
+  
+    function alertPrimary() {
+      alert('Primary button clicked!');
+    }
+
+  
   return (
     <>
       <link rel="stylesheet" href="https://googleapis.com" />
       <Header />
       <div className="m-10">
         <h1>Buttons</h1>
+
         <br/>
-        <button className="transition-all active:scale-95">Login</button>
-        <br />
         
-        <button className="transition-all active:scale-95">
-            <img src="../images/icons/search-icon.webp" className="w-5 h-5 mr-1 inline" /><b></b>Search
-        </button>
+        <Button variant="primary" buttonText="Login" onclick={() => { alertPrimary() }} />
         
         <br />
 
-        <button className="arrow-button transition-all active:scale-95"><b>&gt;</b></button>
+        <Button variant="secondary" buttonText="Login" onclick={() => { alert("Secondary button clicked") }} />
+        
+        <br />
+        
+        <Button variant="search" buttonText="Search" />
+
+        
+        <br />
+
+        <Button variant="arrow-backward"/>
+
+        <br />
+
+        <Button variant="arrow-forward"/>
+        
       </div>
       <Footer />
     </>
