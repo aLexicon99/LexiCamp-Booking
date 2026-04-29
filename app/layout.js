@@ -1,4 +1,5 @@
 // import { StorageProvider } from "@/components/StorageContext";
+import Footer from "@/components/Footer";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="flex min-h-screen flex-col bg-[#f8f9f5]">
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
