@@ -1,0 +1,38 @@
+button {
+    background-color: #0c6947;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #0b5b3c 0%, #097a50 100%);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.3);
+  transition-duration: 0.2s;
+}
+
+.arrow-button {
+    font-size: 20px;
+    background-color: #0c6947;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 16px;
+}
+
+.search-symbol {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
