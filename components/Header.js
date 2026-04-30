@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import Link from "next/link";
 
 const links = [
   { label: "Explore", href: "/" },
@@ -16,9 +17,9 @@ export default function Header() {
     <nav className="fixed top-0 w-full z-50 bg-stone-50 backdrop-blur-md border-b border-emerald-900/5 shadow-[0_4px_20px_rgba(27,67,50,0.03)]">
       <div className="flex justify-between items-center h-18 px-12 max-w-screen-2xl mx-auto">
 
-        <a href="/" className="text-2xl font-black tracking-tight text-emerald-900 no-underline">
+        <Link href="/" className="text-2xl font-black tracking-tight text-emerald-900 no-underline">
           LexiCamp
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center gap-8">
           {links.map(({ label, href }) => {
