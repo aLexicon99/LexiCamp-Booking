@@ -1,13 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import clsx from "clsx";
 import Link from "next/link";
 
 const links = [
-  { label: "Explore", href: "/" },
-  { label: "Top Rated", href: "/top-rated" },
-  { label: "Sustainability", href: "/sustainability" },
+  { label: "Home", href: "/" },
+  { label: "Profile", href: "/profile" },
+  { label: "Booking Page", href: "/booking-page" },
+  { label: "Campground Details", href: "/campground-details" },
 ];
 
 export default function Header() {
@@ -25,21 +25,22 @@ export default function Header() {
           {links.map(({ label, href }) => {
             const isActive = pathname === href;
             return (
-              <a
+              <Link
                 key={href}
                 href={href}
-                className={clsx(
-                  "relative pb-1 text-[0.95rem] no-underline transition-colors duration-200",
-                  isActive
-                    ? "text-emerald-900 font-semibold"
+                className={
+                `relative pb-1 text-[0.95rem] no-underline transition-colors duration-200 
+                ${isActive 
+                    ? "text-emerald-900 font-semibold" 
                     : "text-stone-500 font-medium hover:text-emerald-900"
-                )}
+                }`
+              }
               >
                 {label}
                 {isActive && (
                   <span className="absolute bottom-[-6px] left-1/2 -translate-x-1/2 w-[5px] h-[5px] rounded-full bg-orange-600 block" />
                 )}
-              </a>
+              </Link>
             );
           })}
         </div>
