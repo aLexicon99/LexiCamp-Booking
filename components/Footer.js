@@ -11,7 +11,7 @@ export default function Footer() {
             LexiCamp
           </Link>
           <p className="mt-2 text-xs text-[#8c948a]">
-            © 2024 LexiCamp. Nature-inspired escapes.
+            © 2026 LexiCamp. Nature-inspired escapes.
           </p>
         </div>
 
