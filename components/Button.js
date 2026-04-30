@@ -4,38 +4,39 @@
    och en "onclick" prop för att ange en funktion som ska köras när knappen klickas. Det går även att skicka 
    in egna css klasser via "extraCssClasses" prop.
 */
-export default function Button({ variant = "primary", children = "", onClick = null, extraCssClasses = ""}) {
+export default function Button({ children, variant = "primary", onClick = null, extraCssClasses = "" }) {
     if (variant === "primary") {
         return (
             <button className={`transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null } >
-                { children }
+                {children}
             </button>
         );
     }
     else if (variant === "secondary") {
         return (
             <button className={`transition-all active:scale-95 secondary ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }>
-                { children }
+                {children}
             </button>
         );
     }
     else if (variant === "search") {
         return (
             <button className={`transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }>
-                <img src="../images/icons/search-icon.webp" className="w-5 h-5 mr-1 inline" />{ children }
+                <img src="../images/icons/search-icon.webp" className="w-5 h-5 mr-1 inline" />
+                {children}
             </button>
         );        
     }
     else if (variant === "arrow-forward") {
         return (
-            <button className={`transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }> 
+            <button className={`arrow, transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }> 
                 <b>&gt;</b>
             </button>
         );
     }
     else if (variant === "arrow-backward") {
         return (
-            <button className={`transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }> 
+            <button className={`arrow, transition-all active:scale-95 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }> 
                 <b>&lt;</b>
             </button>
         );
