@@ -54,7 +54,7 @@ button.secondary {
     color: #000;
 }
 
-.arrow-button {
+button.arrow {
   font-size: 20px;
   border-radius: 12px;
   padding: 6px 16px;

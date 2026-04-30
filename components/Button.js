@@ -28,14 +28,14 @@ export default function Button({ variant = "primary", buttonText = "", onclick =
     }
     else if (variant === "arrow-forward") {
         return (
-            <button className="arrow-button transition-all active:scale-95" onClick={ onclick != null ? onclick : null }> 
+            <button className="arrow transition-all active:scale-95" onClick={ onclick != null ? onclick : null }> 
                 <b>&gt;</b>
             </button>
         );
     }
     else if (variant === "arrow-backward") {
         return (
-            <button className="arrow-button transition-all active:scale-95" onClick={ onclick != null ? onclick : null }> 
+            <button className="arrow transition-all active:scale-95" onClick={ onclick != null ? onclick : null }> 
                 <b>&lt;</b>
             </button>
         );
