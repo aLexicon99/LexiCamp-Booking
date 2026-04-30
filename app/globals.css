@@ -47,12 +47,11 @@ button {
 }
 
 button {
-    background-color: #0c6947;
+    background: linear-gradient(135deg, #0b5b3c 0%, #06b976 100%);
     color: white;
     border-radius: 20px;
     padding: 8px 20px;
     margin-bottom: 20px;
-    background: linear-gradient(135deg, #0b5b3c 0%, #06b976 100%);
 }
 
 button:hover {

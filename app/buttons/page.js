@@ -3,6 +3,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Button from "@/components/Button";
+import "./styles.css";
 
 export default function Buttons() {
   
@@ -10,7 +11,6 @@ export default function Buttons() {
       alert('Primary button clicked!');
     }
 
-  
   return (
     <>
       <link rel="stylesheet" href="https://googleapis.com" />
@@ -20,7 +20,7 @@ export default function Buttons() {
 
         <br/>
         
-        <Button variant="primary" buttonText="Login" onclick={() => { alertPrimary() }} />
+        <Button variant="primary" buttonText="Login" onclick={() => { alertPrimary() }} extraCssClasses="testclass" />
         
         <br />
 
