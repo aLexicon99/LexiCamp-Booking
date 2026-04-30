@@ -2,14 +2,16 @@
   {
     "id": "2169631",
     "name": "Barsebäckstrands Camping",
-    "city" : "Barsebäck",
-    "lat": 55.770310000000002,
-    "lng": 12.925890000000001,
+    "city": "Barsebäck",
+    "location": {
+      "lat": 55.770310000000002,
+      "lng": 12.925890000000001
+    },
+    "images": ["image1.jpg", "image2.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7842963.jpeg.webp?itok=FlX2QQBW",
-    "localImages" : ["image1.jpg", "image2.jpg"],
     "url": "https://camping.se/sv/campingar/4005/Barsebackstrands-Camping",
     "directUrl": "https://barsebackstrandscamping.se/",
-    "shortDescription": "Liten och lugn campingplats som ligger precis vid Öresund. Här kan du njuta av en härlig sandstrand, badbrygga och en fantastisk utsikt över solnedgången.",
+    "description": "Liten och lugn campingplats som ligger precis vid Öresund. Här kan du njuta av en härlig sandstrand, badbrygga och en fantastisk utsikt över solnedgången.",
     "fullDescription": "På Barsebäckstrands Camping har du havet som närmsta granne och alla platser njuts av en härlig havsutsikt med gångväg ner till den vita långgrunda stranden eller kanske ett dopp från bryggan.<br /> Här har du tillgång till två servicebyggnader för att göra din campingupplevelse mer bekväm. Det äldre servicehuset har vandrarhemsrum, kök, dusch och toaletter. Det nyare servicehuset är en paviljong med toaletter och separata duschrum.",
     "activities": [
       "Strand",
@@ -21,194 +23,389 @@
       "Lugn och ro",
       "Sol och bad",
       "Utsikt"
-    ]
+    ],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2091817",
     "name": "Bingsmarkens Camping",
-    "city" : "Skivarp",
-    "lat": 55.38656246,
-    "lng": 13.49919787,
+    "city": "Skivarp",
+    "location": {
+      "lat": 55.38656246,
+      "lng": 13.49919787
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7855207.jpeg.webp?itok=QIZTcb0M",
     "url": "https://camping.se/sv/campingar/2825/Bingsmarkens-Camping",
-    "shortDescription": "Bingsmarkens Camping är en trevlig familjecamping, mellan Trelleborg och Ystad på Sveriges sydkust. Campingen ligger endast 75 meter från havet, vid en finkornig, långgrund sandstrand.",
+    "description": "Bingsmarkens Camping är en trevlig familjecamping, mellan Trelleborg och Ystad på Sveriges sydkust. Campingen ligger endast 75 meter från havet, vid en finkornig, långgrund sandstrand.",
     "fullDescription": "Bingsmarkens Camping – eller Skånes Hawaii, som det också kallas – är en trevlig familjecamping, mellan Trelleborg och Ystad på Sveriges sydkust.<br /> Här finns tomter för husvagn, husbil och tält. Dessutom går det att hyra stuga, glampingtält eller husvagn på plats.",
-    "activities": ["Nära havet", "Familj", "Pool"]
+    "activities": ["Nära havet", "Familj", "Pool"],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2084510",
     "name": "Borrbystrand Camping",
-    "lat": 55.434609520000002,
-    "lng": 14.23235032,
+    "location": {
+      "lat": 55.434609520000002,
+      "lng": 14.23235032
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7408784.jpeg.webp?itok=9smlfz_J",
     "url": "https://camping.se/sv/campingar/2790/Borrbystrand-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2084622",
     "name": "Borstahusen Campingresort",
-    "lat": 55.901194799999999,
-    "lng": 12.80482495,
+    "location": {
+      "lat": 55.901194799999999,
+      "lng": 12.80482495
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/9648880.jpeg.webp?itok=pc9DSVs6",
     "url": "https://camping.se/sv/campingar/2812/Borstahusen-Campingresort",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2093388",
     "name": "Bromölla Camping & Vandrarhem",
-    "lat": 56.06637387,
-    "lng": 14.45487642,
+    "location": {
+      "lat": 56.06637387,
+      "lng": 14.45487642
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15522604.jpeg.webp?itok=oCJPpDj6",
     "url": "https://camping.se/sv/campingar/2795/Bromolla-Camping-Vandrarhem",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2833406",
     "name": "Båstad Camping",
-    "lat": 56.437991400000001,
-    "lng": 12.916775299999999,
+    "location": {
+      "lat": 56.437991400000001,
+      "lng": 12.916775299999999
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15640605.jpeg.webp?itok=MW6vnABX",
     "url": "https://camping.se/sv/campingar/4027/Bastad-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2092738",
     "name": "Caravan Club Norrvikens Camping",
-    "lat": 56.453454800000003,
-    "lng": 12.7858175,
+    "location": {
+      "lat": 56.453454800000003,
+      "lng": 12.7858175
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/14210743.jpeg.webp?itok=vxIkPJF5",
     "url": "https://camping.se/sv/campingar/3416/Caravan-Club-Norrvikens-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2085458",
     "name": "Falsterbo Camping & Resort",
-    "lat": 55.39769476,
-    "lng": 12.865152180000001,
+    "location": {
+      "lat": 55.39769476,
+      "lng": 12.865152180000001
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/11406421.jpeg.webp?itok=fsiiXNBz",
     "url": "https://camping.se/sv/campingar/2814/Falsterbo-Camping-Resort",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2090176",
     "name": "Grottbyns Camping",
-    "lat": 55.960196689999997,
-    "lng": 13.53721387,
+    "location": {
+      "lat": 55.960196689999997,
+      "lng": 13.53721387
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10382908.jpeg.webp?itok=lUq01Aw8",
     "url": "https://camping.se/sv/campingar/2827/Grottbyns-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2090351",
     "name": "Jägersbo Camping SweCamp",
-    "lat": 55.903168479999998,
-    "lng": 13.5643101,
+    "location": {
+      "lat": 55.903168479999998,
+      "lng": 13.5643101
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7253713.jpeg.webp?itok=gwvBbH59",
     "url": "https://camping.se/sv/campingar/2822/Jagersbo-Camping-SweCamp",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2092642",
     "name": "Kiviks Familjecamping",
-    "lat": 55.691368709999999,
-    "lng": 14.213731770000001,
+    "location": {
+      "lat": 55.691368709999999,
+      "lng": 14.213731770000001
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7418191.jpeg.webp?itok=zqSSVP2a",
     "url": "https://camping.se/sv/campingar/3238/Kiviks-Familjecamping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2093226",
     "name": "Lomma Camping",
-    "lat": 55.688754369999998,
-    "lng": 13.057560909999999,
+    "location": {
+      "lat": 55.688754369999998,
+      "lng": 13.057560909999999
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10284436.jpeg.webp?itok=pPMkLbRC",
     "url": "https://camping.se/sv/campingar/2826/Lomma-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2093122",
     "name": "Orebackens Camping",
-    "lat": 55.626119189999997,
-    "lng": 13.71982708,
+    "location": {
+      "lat": 55.626119189999997,
+      "lng": 13.71982708
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7417985.jpeg.webp?itok=O2eejFKG",
     "url": "https://camping.se/sv/campingar/2820/Orebackens-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2092247",
     "name": "Ringsjöstrands Resort",
-    "lat": 55.850068950000001,
-    "lng": 13.58737988,
+    "location": {
+      "lat": 55.850068950000001,
+      "lng": 13.58737988
+    },
+    "images": ["image1.jpg", "image2.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7257509.jpeg.webp?itok=oO987Fgw",
     "url": "https://camping.se/sv/campingar/2821/Ringsjostrands-Resort",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2089232",
     "name": "Tobisviks Camping",
-    "lat": 55.57003237,
-    "lng": 14.33731268,
+    "location": {
+      "lat": 55.57003237,
+      "lng": 14.33731268
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/11406574.jpeg.webp?itok=0QiW4jfo",
     "url": "https://camping.se/sv/campingar/2791/Tobisviks-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2094701",
     "name": "Trelleborg Strand Camping",
-    "lat": 55.36383944,
-    "lng": 13.209497150000001,
+    "location": {
+      "lat": 55.36383944,
+      "lng": 13.209497150000001
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10650919.jpeg.webp?itok=FqmnZwPG",
     "url": "https://camping.se/sv/campingar/2816/Trelleborg-Strand-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2092993",
     "name": "Ystad Camping",
-    "lat": 55.433116317409201,
-    "lng": 13.864613129526701,
+    "location": {
+      "lat": 55.433116317409201,
+      "lng": 13.864613129526701
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/9647905.jpeg.webp?itok=QAF_Knio",
     "url": "https://camping.se/sv/campingar/2819/Ystad-Camping",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   },
   {
     "id": "2825626",
     "name": "Ängdala Camping på Österlen",
-    "lat": 55.709974899999999,
-    "lng": 14.1694938,
+    "location": {
+      "lat": 55.709974899999999,
+      "lng": 14.1694938
+    },
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15219602.jpeg.webp?itok=59lKakzz",
     "url": "https://camping.se/sv/campingar/4055/Angdala-Camping-pa-Osterlen",
-    "shortDescription": "",
+    "description": "",
     "fullDescription": "",
-    "activities": []
+    "activities": [],
+    "pricePerNight": 650,
+    "rating": 6.5,
+    "tags": [],
+    "environment": [],
+    "capacity": 10,
+    "petFriendly": true,
+    "amenities": [],
+    "reviews": []
   }
 ]
