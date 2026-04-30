@@ -20,15 +20,15 @@ export default function Buttons() {
 
         <br/>
         
-        <Button variant="primary" buttonText="Login" onclick={() => { alertPrimary() }} extraCssClasses="testclass" />
+        <Button variant="primary" children="Login" onClick={() => { alertPrimary() }} extraCssClasses="testclass" />
         
         <br />
 
-        <Button variant="secondary" buttonText="Login" onclick={() => { alert("Secondary button clicked") }} />
+        <Button variant="secondary" children="Login" onClick={() => { alert("Secondary button clicked") }} />
         
         <br />
         
-        <Button variant="search" buttonText="Search" />
+        <Button variant="search" children="Search" extraCssClasses="testclass"/>
 
         
         <br />
