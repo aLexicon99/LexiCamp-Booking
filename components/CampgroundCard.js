@@ -1,12 +1,26 @@
 // TODO: wrap card in Link to details page when routing is implemented
 
+
 export default function CampgroundCard({ campground }) {
-  
-    return (
+
+  const imagePath = campground.images?.[0]
+    ? `/images/locations/${campground.id}/${campground.images[0]}`
+    : null;
+
+
+  return (
     <article className="overflow-hidden rounded-[var(--radius-lg)] bg-[var(--card)] shadow-md">
-      <div className="flex h-48 items-center justify-center bg-gray-300 text-sm text-gray-600">
-        image placeholder
-      </div>
+      {imagePath ? (
+        <img
+          src={imagePath}
+          alt={campground.name}
+          className="h-48 w-full object-cover"
+        />
+      ) : (
+        <div className="flex h-48 items-center justify-center bg-gray-300 text-sm text-gray-600">
+          image placeholder
+        </div>
+      )}
 
       <div className="space-y-4 p-5">
         <div className="flex items-start justify-between gap-3">
@@ -20,16 +34,16 @@ export default function CampgroundCard({ campground }) {
         </div>
 
         <p className="text-sm text-[var(--muted)]">
-          {campground.location}
+          {campground.city}
         </p>
 
         <div className="flex flex-wrap gap-2">
-          {campground.tags.map((tag) => (
+          {campground.activities?.slice(0, 3).map((activity) => (
             <span
-              key={tag}
+              key={activity}
               className="rounded-full bg-[var(--secondary)] px-3 py-1 text-xs font-semibold"
             >
-              {tag}
+              {activity}
             </span>
           ))}
         </div>
