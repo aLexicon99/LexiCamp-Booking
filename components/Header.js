@@ -5,9 +5,8 @@ import Link from "next/link";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "Profile", href: "/profile" },
-  { label: "Booking Page", href: "/booking-page" },
-  { label: "Campground Details", href: "/campground-details" },
+  { label: "Campsites", href: "/locations" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
@@ -49,9 +48,11 @@ export default function Header() {
           <button className="hidden md:block text-emerald-900 font-bold text-[0.95rem] bg-transparent border-none cursor-pointer hover:text-emerald-700 transition-colors duration-200">
             Become a Host
           </button>
-          <span className="material-symbols-outlined text-[1.75rem] text-stone-500 cursor-pointer hover:text-emerald-900 transition-colors duration-200 select-none">
+          <Link
+              href="/user"
+              className="material-symbols-outlined text-[1.75rem] text-stone-500 cursor-pointer hover:text-emerald-900 transition-colors duration-200 select-none">
             account_circle
-          </span>
+          </Link>
         </div>
 
       </div>

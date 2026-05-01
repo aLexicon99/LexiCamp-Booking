@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Header from "@/components/Header";
 import allUsers from "@/public/users_data.json";
 import { useLocalStorage, useIsClient } from "@/components/lib/useLocalStorage";
 
@@ -46,8 +45,6 @@ export default function Page() {
 
   return (
     <div>
-      <Header />
-
       {!user ? (
         <>
           {/*❌ INTE INLOGGAD */}
