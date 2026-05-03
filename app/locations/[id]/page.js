@@ -1,7 +1,6 @@
 "use client";
 
 // import Image from "next/image";
-import Header from "@/components/Header";
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -33,8 +32,6 @@ export default function Location() {
 
   return (
     <>
-      <Header />
-
       <div className="p-2">
         {campingsite.name ? (
           <div>
