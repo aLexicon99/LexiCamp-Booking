@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import CampgroundCard from "@/components/CampgroundCard";
 import HeroSearch from "@/components/HeroSearch";
 import Link from "next/link";
@@ -27,6 +28,11 @@ const benefits = [
       "The experience is structured so future support features can plug in easily.",
   },
 ];
+=======
+"use client";
+
+import Header from "@/components/Header";
+>>>>>>> 39793a0784f07e676abfa5d6bd5727cb7d1e24f2
 
 export default function Home() {
   return (

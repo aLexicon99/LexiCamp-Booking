@@ -15,6 +15,7 @@ export default function Locations() {
   }, []);
 
   return (
+<<<<<<< HEAD
     <div className="flex justify-around h-full">
       <div className="flex-1">
         {Locations.map((location, index) => (
@@ -27,6 +28,25 @@ export default function Locations() {
             </a>
           </div>
         ))}
+=======
+    <>
+      <div className="flex justify-around h-full">
+        <div className="flex-1">
+          {Locations.map((location, index) => (
+            <div key={index}>
+              <a
+                href={`/locations/${location.id}`}
+                className="text-gray-600 hover:text-black"
+              >
+                {location.name}
+              </a>
+            </div>
+          ))}
+        </div>
+        <div className="flex-2 pl-2 border-l-2 border-b-2 max-h-full">
+          {" KARTA "}
+        </div>
+>>>>>>> 39793a0784f07e676abfa5d6bd5727cb7d1e24f2
       </div>
       <div className="flex-2 pl-2 border-l-2 border-b-2 max-h-full">
         {" KARTA "}
