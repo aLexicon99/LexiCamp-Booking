@@ -43,15 +43,8 @@ select {
 }
 
 button {
-  cursor: pointer;
-}
-
-button {
     background: linear-gradient(135deg, #0b5b3c 0%, #06b976 100%);
     color: white;
-    border-radius: 20px;
-    padding: 8px 20px;
-    margin-bottom: 20px;
 }
 
 button:hover {
@@ -68,6 +61,4 @@ button.secondary {
 
 button.arrow {
   font-size: 20px;
-  border-radius: 12px;
-  padding: 6px 16px;
 }

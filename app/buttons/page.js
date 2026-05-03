@@ -17,26 +17,16 @@ export default function Buttons() {
       <Header />
       <div className="m-10">
         <h1>Buttons</h1>
-
-        <br/>
         
-        <Button variant="primary" onClick={() => { alertPrimary() }}>Login</Button>
-        
-        <br />
+        <Button variant="primary" extraCssClasses="mr-3" onClick={() => { alertPrimary() }}>Login</Button>                  
 
-        <Button variant="secondary" onClick={() => { alert("Secondary button clicked") }}>Login</Button>
-        
-        <br />
-        
-        <Button variant="search" extraCssClasses="testclass">Search</Button>
-        
-        <br />
+        <Button variant="secondary" extraCssClasses="mr-3" onClick={() => { alert("Secondary button clicked") }}>Login</Button>
+     
+        <Button variant="search" extraCssClasses="testclass mr-3">Search</Button>
+     
+        <Button variant="arrow-backward" extraCssClasses="mr-3"/>
 
-        <Button variant="arrow-backward"/>
-
-        <br />
-
-        <Button variant="arrow-forward"/>
+        <Button variant="arrow-forward"  extraCssClasses="mr-3"/>
         
       </div>
       <Footer />
