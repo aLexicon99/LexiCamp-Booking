@@ -84,7 +84,8 @@ export default function Home() {
                 Verified Experiences
               </h3>
               <p className="mt-2 text-sm text-[#66736d]">
-                Every host and location on LexiCamp is hand-vetted for safety and sustainability.
+                Every host and location on LexiCamp is hand-vetted for safety
+                and sustainability.
               </p>
             </div>
           </div>
@@ -97,15 +98,29 @@ export default function Home() {
               Elevating the outdoor experience.
             </h2>
             <p className="mt-5 max-w-2xl text-[#66736d]">
-              A simple homepage structure for browsing, comparing, and planning
-              outdoor stays.
+              We believe camping should not mean compromising on comfort or
+              values. Our platform bridges the gap between rugged nature and
+              thoughtful design.
             </p>
 
             <div className="mt-10 grid gap-8 sm:grid-cols-2">
               {benefits.map((benefit) => (
                 <div key={benefit.title}>
                   <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-md bg-[#043f2d] text-white">
-                    OK
+                    <svg
+                      aria-hidden="true"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m5 13 4 4L19 7"
+                      />
+                    </svg>
                   </div>
                   <h3 className="font-extrabold">{benefit.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-[#66736d]">
@@ -126,7 +141,8 @@ export default function Home() {
               Ready to Explore?
             </h2>
             <p className="mt-5 text-lg text-white/85">
-              Join 50,000+ explorers finding their peace in the wild. Your next adventure starts with a single click.
+              Join 50,000+ explorers finding their peace in the wild. Your next
+              adventure starts with a single click.
             </p>
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
               <Link
