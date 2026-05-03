@@ -127,8 +127,7 @@ export default function Home() {
               Ready to Explore?
             </h2>
             <p className="mt-5 text-lg text-white/85">
-              Start with the campsite list and keep building the final homepage
-              sections from here.
+              Join 50,000+ explorers finding their peace in the wild. Your next adventure starts with a single click.
             </p>
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
               <Link
