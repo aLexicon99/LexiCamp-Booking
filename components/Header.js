@@ -1,37 +1,58 @@
-"use client";
+import Link from "next/link";
 
-import Image from "next/image";
+const pages = [
+  { title: "Explore", link: "/" },
+  { title: "Top Rated", link: "/locations" },
+  { title: "Sustainability", link: "/contact" },
+];
 
-export default function Page() {
-  const pages = [
-    { title: "Hem", link: "/" },
-    { title: "Kontakt", link: "/contact" },
-    { title: "Locations", link: "/locations" },
-    { title: "Backend API", link: "/api/locations", newTab: true },
-  ];
+export default function Header() {
   return (
-    <div className="w-full pb-5 pt-5 bg-yellow-400">
-      <span className="flex items-center justify-center">
-        <Image
-          width={80}
-          height={80}
-          loading="eager"
-          alt="lexicamp-logo"
-          src="/images/transparent_logo.png"
-        />
-        <h2 className="text-3xl font-semibold text-white text-shadow-lg">
+    <header className="sticky top-0 z-50 w-full border-b border-[#e7e9e3] bg-[#f8f9f5]/95 px-6 py-5 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl items-center justify-between">
+        <Link
+          href="/"
+          className="text-xl font-extrabold tracking-tight text-[#043f2d]"
+        >
           LexiCamp
-        </h2>
-      </span>
-      <div className="text-white text-shadow-md flex justify-evenly">
-        {pages.map((page, index) => (
-          <p key={index} className={`pl-2 hover:text-amber-800`}>
-            <a href={page.link} target={page.newTab ? "_blank" : "_self"}>
+        </Link>
+
+        <nav
+          aria-label="Main navigation"
+          className="hidden items-center gap-9 text-sm text-[#49564f] md:flex"
+        >
+          {pages.map((page, index) => (
+            <Link
+              key={page.title}
+              href={page.link}
+              className={`relative transition-colors hover:text-[#043f2d] ${
+                index === 0 ? "font-semibold text-[#043f2d]" : ""
+              }`}
+            >
               {page.title}
-            </a>
-          </p>
-        ))}
+              {index === 0 && (
+                <span className="absolute -bottom-2 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-[#fb8500]" />
+              )}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-4 text-sm text-[#043f2d]">
+          <Link
+            href="/user"
+            className="hidden transition-colors hover:text-[#fb8500] sm:inline"
+          >
+            Become a Host
+          </Link>
+          <Link
+            href="/user"
+            aria-label="User account"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9ded6] transition-colors hover:border-[#043f2d]"
+          >
+            <span className="h-3 w-3 rounded-full border-2 border-[#043f2d]" />
+          </Link>
+        </div>
       </div>
-    </div>
+    </header>
   );
 }

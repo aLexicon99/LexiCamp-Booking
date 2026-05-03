@@ -41,7 +41,7 @@ export default function HeroSearch() {
           </select>
         </div>
       </div>
-      <Link href={`/locations${search && `?find=${search}`}`}>
+      <Link href={`/locations${search ? `?find=${search}` : ""}`}>
         <button className="w-full md:w-auto bg-[#fb8500] hover:bg-[#e67a00] text-white px-6 py-4 rounded-md font-bold flex items-center justify-center gap-2 transition-all transform active:scale-95">
           <svg
             xmlns="http://www.w3.org/2000/svg"
