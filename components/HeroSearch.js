@@ -5,6 +5,8 @@ import { useState } from "react";
 
 export default function HeroSearch() {
   const [search, setSearch] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [guests, setGuests] = useState("3");
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl p-2 flex flex-col md:flex-row items-center opacity-80 gap-2 max-w-3xl mx-auto max-h-80">
@@ -26,6 +28,7 @@ export default function HeroSearch() {
           </label>
           <input
             className="w-full border-none focus:outline-none focus:border-transparent focus:ring-0 text-stone-800 font-semibold p-1"
+            onChange={(e) => setCheckIn(e.target.value)}
             type="date"
           />
         </div>
@@ -33,15 +36,20 @@ export default function HeroSearch() {
           <label className="text-[10px] font-bold uppercase tracking-wider text-stone-400 px-1">
             Guests
           </label>
-          <select className="w-full border-none focus:outline-none focus:border-transparent focus:ring-0 text-stone-800 font-semibold p-1">
-            <option>2 Adults, 1 Child</option>
-            <option>1 Adult</option>
-            <option>2 Adults</option>
-            <option>4+ Group</option>
+          <select
+            onChange={(e) => setGuests(e.target.value)}
+            className="w-full border-none focus:outline-none focus:border-transparent focus:ring-0 text-stone-800 font-semibold p-1"
+          >
+            <option value={3}>2 Adults, 1 Child</option>
+            <option value={1}>1 Adult</option>
+            <option value={2}>2 Adults</option>
+            <option value={"4+"}>4+ Group</option>
           </select>
         </div>
       </div>
-      <Link href={`/locations${search ? `?find=${search}` : ""}`}>
+      <Link
+        href={`/locations${search && `?location=${search}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
+      >
         <button className="w-full md:w-auto bg-[#fb8500] hover:bg-[#e67a00] text-white px-6 py-4 rounded-md font-bold flex items-center justify-center gap-2 transition-all transform active:scale-95">
           <svg
             xmlns="http://www.w3.org/2000/svg"
