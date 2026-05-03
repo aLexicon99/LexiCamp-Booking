@@ -1,6 +1,5 @@
 "use client";
 
-import Header from "@/components/Header";
 import { useEffect, useState } from "react";
 
 export default function Locations() {
@@ -17,7 +16,6 @@ export default function Locations() {
 
   return (
     <>
-      <Header />
       <div className="flex justify-around h-full">
         <div className="flex-1">
           {Locations.map((location, index) => (
