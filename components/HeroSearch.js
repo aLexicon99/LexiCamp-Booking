@@ -43,7 +43,7 @@ export default function HeroSearch() {
             <option value={3}>2 Adults, 1 Child</option>
             <option value={1}>1 Adult</option>
             <option value={2}>2 Adults</option>
-            <option value={"4+"}>4+ Group</option>
+            <option value={"group"}>4+ Group</option>
           </select>
         </div>
       </div>
