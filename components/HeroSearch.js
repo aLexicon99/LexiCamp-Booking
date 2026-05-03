@@ -43,12 +43,12 @@ export default function HeroSearch() {
             <option value={3}>2 Adults, 1 Child</option>
             <option value={1}>1 Adult</option>
             <option value={2}>2 Adults</option>
-            <option value={"4+"}>4+ Group</option>
+            <option value={"group"}>4+ Group</option>
           </select>
         </div>
       </div>
       <Link
-        href={`/locations${search && `?location=${search}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
+        href={`/search${search && `?location=${search}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
       >
         <button className="w-full md:w-auto bg-[#fb8500] hover:bg-[#e67a00] text-white px-6 py-4 rounded-md font-bold flex items-center justify-center gap-2 transition-all transform active:scale-95">
           <svg
