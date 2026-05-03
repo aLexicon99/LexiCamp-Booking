@@ -84,8 +84,7 @@ export default function Home() {
                 Verified Experiences
               </h3>
               <p className="mt-2 text-sm text-[#66736d]">
-                Every section is ready for teammates to replace placeholders
-                with final UI.
+                Every host and location on LexiCamp is hand-vetted for safety and sustainability.
               </p>
             </div>
           </div>
