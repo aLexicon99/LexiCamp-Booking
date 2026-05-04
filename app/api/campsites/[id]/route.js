@@ -9,10 +9,8 @@ export async function GET(req, { params }) {
   const foundCampsite = data.find((c) => c.id === id);
 
   if (id && foundCampsite) {
-    if (foundCampsite) {
-      return NextResponse.json(foundCampsite, { status: 200 });
-    }
+    return NextResponse.json(foundCampsite, { status: 200 });
   } else {
-    return NextResponse.json({ message: "ID NOT FOUND" }, { status: 200 });
+    return NextResponse.json({ message: `Campsite with ID "${id}" was NOT Found` }, { status: 200 });
   }
 }

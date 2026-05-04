@@ -27,10 +27,10 @@ export default function Locations() {
           <div className="flex justify-around h-full">
             <div className="flex-1 p-6">
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {campsites.map((campground, index) => (
+                {campsites.map((campground) => (
                   <Link
-                    key={index}
                     prefetch={false}
+                    key={campground.id}
                     href={`/campsites/${campground.id}`}
                     className="text-gray-600 hover:text-black"
                   >
