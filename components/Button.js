@@ -19,6 +19,13 @@ export default function Button({ children, variant = "primary", onClick = null, 
             </button>
         );
     }
+    else if (variant === "outlined") {
+        return (
+            <button className={`cursor-pointer text-black transition-all active:scale-95 pl-5 pr-5 pt-2 pb-2 rounded-3xl border secondary bg-white ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }>
+                { children }
+            </button>
+        );
+    }
     else if (variant === "search") {
         return (
             <button className={`cursor-pointer text-white transition-all active:scale-95 pl-5 pr-5 pt-2 pb-2 rounded-xl bg-green-700 ${extraCssClasses}`} onClick={ onClick != null ? onClick : null }>
