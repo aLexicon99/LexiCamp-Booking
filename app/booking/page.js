@@ -1,8 +1,8 @@
 "use client";
 
 import CancellationPolicyInfo from "./_components/CancellationPolicyInfo";
-import GuestDetails from "@/app/booking/_components/GuestDetails";
-import PaymentInfo from "@/app/booking/_components/PaymentInfo";
+import GuestDetails from "./_components/GuestDetails";
+import PaymentInfo from "./_components/PaymentInfo";
 import Link from "next/link";
 
 export default function Booking() {

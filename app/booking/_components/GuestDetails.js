@@ -1,6 +1,6 @@
 "use client";
 
-import SectionHeader from "@/app/booking/_components/SectionHeader";
+import SectionHeader from "./SectionHeader";
 import {useState} from "react";
 import useAuth from "@/hooks/useAuth";
 
