@@ -1,17 +1,21 @@
 import { useState, useEffect } from 'react';
 
-export function useLocalStorage(key, initialValue) {
-  const [storedValue, setStoredValue] = useState(initialValue);
+function load(key) {
+    if (typeof window !== 'undefined' && window.localStorage) {
+        const item = window.localStorage.getItem(key);
+        if (item) {
+            return JSON.parse(item);
+        }
+    }
+}
+
+export default function useLocalStorage(key, initialValue) {
+  // const [storedValue, setStoredValue] = useState(initialValue);
+  const [storedValue, setStoredValue] = useState(()=> load(key) || initialValue);
 
   useEffect(() => {
     try {
-      if (typeof window !== 'undefined' && window.localStorage) {
-        const item = window.localStorage.getItem(key);
-        if (item) {
-          // eslint-disable-next-line react-hooks/set-state-in-effect
-          setStoredValue(JSON.parse(item));
-        }
-      }
+        setStoredValue(load(key));
     } catch (error) {
       console.error(`Error reading localStorage key "${key}":`, error);
     }
@@ -41,16 +45,4 @@ export function useLocalStorage(key, initialValue) {
   };
 
   return [storedValue, setValue, removeValue];
-}
-
-// hook for clientComponent check
-export function useIsClient() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsClient(true);
-  }, []);
-
-  return isClient;
 }

@@ -2,43 +2,57 @@
   {
     "id": 1,
     "name": "admin",
-    "fullname": "Admin Adminsson",
+    "firstName": "Admin",
+    "lastName": "Adminsson",
+    "email":"admin@mail.com",
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 2,
     "name": "test",
-    "fullname": "Test Testsson",
+    "firstName": "Test",
+    "lastName": "Testsson",
+    "email": "test@mail.com",
     "bookings": []
   },
   {
     "id": 3,
     "name": "aleks",
-    "fullname": "Aleks C",
+    "firstName": "Aleks",
+    "lastName": "C",
+    "email": "aleks@mail.com",
     "bookings": [{ "id": 2169631 }, { "id": 2091817 }, { "id": 2084510 }]
   },
   {
     "id": 4,
     "name": "halime",
-    "fullname": "Halime T",
+    "firstName": "Halime",
+    "lastName": "T",
+    "email": "halime@mail.com",
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 5,
     "name": "nayomi",
-    "fullname": "Nayomi A",
+    "firstName": "Nayomi",
+    "lastName": "A",
+    "email": "nayomi@mail.com",
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 6,
     "name": "osman",
-    "fullname": "Osman O",
+    "firstName": "Osman",
+    "lastName": "O",
+    "email": "osman@mail.com",
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 7,
     "name": "göran",
-    "fullname": "Göran R",
+    "firstName": "Göran",
+    "lastName": "R",
+    "email": "göran@mail.com",
     "bookings": [{ "id": 2169631 }]
   }
 ]
