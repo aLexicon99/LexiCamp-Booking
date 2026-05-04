@@ -1,17 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import allUsers from "@/public/users_data.json";
-import { useLocalStorage, useIsClient } from "@/components/lib/useLocalStorage";
+import useAuth from "@/hooks/useAuth";
+import useIsClient from "@/hooks/useIsClient";
 
 export default function Page() {
   const [newUser, setNewUser] = useState("");
   const [message, setMessage] = useState("");
-
-  // Storage & CustomHook
+  const [user, login, logout] = useAuth();
   const isClient = useIsClient();
-  const [user, setUser, removeUser] = useLocalStorage("user", null);
-  const [userData, setUserData, removeData] = useLocalStorage("data", {});
 
   // förhindrar hydrationsfel i client component
   if (!isClient) {
@@ -21,23 +18,15 @@ export default function Page() {
   function loginUser() {
     if (!newUser || newUser.trim() === "") return;
 
-    const userToLogin = newUser.trim().toLocaleLowerCase();
-    const storedUserData = allUsers.find((_user) => _user.name === userToLogin);
-    if (storedUserData) {
-      // ✅ ALLT OK - ANVÄNDAREN HITTADES
-      setUserData(storedUserData);
-      return setUser(newUser);
-      // return window.location.href = "/";
-    } else {
+    const isSuccess = login(newUser);
+    if (!isSuccess) {
       // ⛔ FEL - LOGIN UPPGIFTER STÄMMER EJ
       setMessage(`Användaren "${newUser}" hittades inte, försök igen...`);
-      return setNewUser("");
     }
   }
 
   function logoutUser() {
-    removeUser();
-    removeData();
+    logout();
     setMessage("");
     setNewUser("");
     // window.location.href = "/";
@@ -69,9 +58,9 @@ export default function Page() {
             className="w-full bg-orange-600 text-white p-2"
             onClick={logoutUser}
           >
-            Logga ut - {userData.fullname}
+            Logga ut - {user.fullname}
           </button>
-          <pre className="bg-gray-300">{JSON.stringify(userData, null, 4)}</pre>
+          <pre className="bg-gray-300">{JSON.stringify(user, null, 4)}</pre>
           {/* {
             <div className="mt-2">
               <p> Tidigare bokningar : {userData.bookings.length}</p>
