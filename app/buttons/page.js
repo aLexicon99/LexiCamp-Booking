@@ -22,6 +22,8 @@ export default function Buttons() {
 
         <Button variant="secondary" extraCssClasses="mr-3" onClick={() => { alert("Secondary button clicked") }}>Login</Button>
      
+        <Button variant="outlined" extraCssClasses="mr-3">Outlined</Button>
+
         <Button variant="search" extraCssClasses="testclass mr-3">Search</Button>
      
         <Button variant="arrow-backward" extraCssClasses="mr-3"/>

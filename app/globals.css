@@ -35,30 +35,14 @@ a {
   text-decoration: none;
 }
 
-button,
 input,
 textarea,
 select {
   font: inherit;
 }
 
-button {
-    background: linear-gradient(135deg, #0b5b3c 0%, #06b976 100%);
-    color: white;
-}
-
 button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 51, 102, 0.3);
   transition-duration: 0.2s;
-  cursor: pointer;
-}
-
-button.secondary {
-    background: linear-gradient(135deg, #52a586 0%, #90ffd6 100%); 
-    color: #000;
-}
-
-button.arrow {
-  font-size: 20px;
 }
