@@ -61,7 +61,7 @@ export default function Home() {
               </h2>
             </div>
             <Link
-              href="/locations"
+              href="/campsites"
               className="hidden text-sm font-semibold text-[#043f2d] hover:text-[#fb8500] md:block"
             >
               View all destinations
@@ -146,7 +146,7 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
               <Link
-                href="/locations"
+                href="/campsites"
                 className="rounded-full bg-[#fb8500] px-8 py-4 font-bold text-white hover:bg-[#e67800]"
               >
                 Start Booking Now
