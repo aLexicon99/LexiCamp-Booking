@@ -14,18 +14,18 @@
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7842963.jpeg.webp?itok=FlX2QQBW",
     "url": "https://camping.se/sv/campingar/4005/Barsebackstrands-Camping",
     "directUrl": "https://barsebackstrandscamping.se/",
-    "description": "Liten och lugn campingplats som ligger precis vid Öresund. Här kan du njuta av en härlig sandstrand, badbrygga och en fantastisk utsikt över solnedgången.",
-    "fullDescription": "På Barsebäckstrands Camping har du havet som närmsta granne och alla platser njuts av en härlig havsutsikt med gångväg ner till den vita långgrunda stranden eller kanske ett dopp från bryggan.<br /> Här har du tillgång till två servicebyggnader för att göra din campingupplevelse mer bekväm. Det äldre servicehuset har vandrarhemsrum, kök, dusch och toaletter. Det nyare servicehuset är en paviljong med toaletter och separata duschrum.",
+    "description": "Small and peaceful campsite located right by Öresund. Here you can enjoy a beautiful sandy beach, bathing dock and fantastic sunset views.",
+    "fullDescription": "At Barsebäckstrands Camping, the sea is your nearest neighbor and all pitches enjoy a beautiful sea view with a pathway down to the white shallow beach or perhaps a dip from the dock.<br /> Here you have access to two service buildings to make your camping experience more comfortable. The older service building has hostel rooms, kitchen, shower and toilets. The newer service building is a pavilion with toilets and separate shower rooms.",
     "activities": [
-      "Strand",
-      "Nära havet",
-      "Hav",
+      "Beach",
+      "Close to sea",
+      "Sea",
       "Golf",
-      "Husbil",
-      "Midsommarfirande",
-      "Lugn och ro",
-      "Sol och bad",
-      "Utsikt"
+      "Motorhome",
+      "Midsummer celebration",
+      "Peace and quiet",
+      "Sun and swimming",
+      "View"
     ],
     "pricePerNight": 230,
     "rating": 6.5,
@@ -34,12 +34,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Kök",
-      "Vandrarhemsrum",
-      "Parkering",
-      "Electricitet"
+      "Toilets",
+      "Shower",
+      "Kitchen",
+      "Hostel rooms",
+      "Parking",
+      "Electricity"
     ],
     "reviews": []
   },
@@ -58,11 +58,11 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7855207.jpeg.webp?itok=QIZTcb0M",
     "url": "https://camping.se/sv/campingar/2825/Bingsmarkens-Camping",
-    "description": "Bingsmarkens Camping är en trevlig familjecamping, mellan Trelleborg och Ystad på Sveriges sydkust. Campingen ligger endast 75 meter från havet, vid en finkornig, långgrund sandstrand.",
-    "fullDescription": "Bingsmarkens Camping – eller Skånes Hawaii, som det också kallas – är en trevlig familjecamping, mellan Trelleborg och Ystad på Sveriges sydkust.<br /> Här finns tomter för husvagn, husbil och tält. Dessutom går det att hyra stuga, glampingtält eller husvagn på plats.",
+    "description": "Bingsmarkens Camping is a nice family campsite, between Trelleborg and Ystad on Sweden's south coast. The campsite is only 75 meters from the sea, at a fine-grained, shallow sandy beach.",
+    "fullDescription": "Bingsmarkens Camping – or Scania's Hawaii, as it's also called – is a nice family campsite, between Trelleborg and Ystad on Sweden's south coast.<br /> Here there are pitches for caravans, motorhomes and tents. You can also rent a cottage, glamping tent or caravan on site.",
     "activities": [
-      "Nära havet",
-      "Familj",
+      "Close to sea",
+      "Family",
       "Pool"
     ],
     "pricePerNight": 460,
@@ -73,12 +73,12 @@
     "petFriendly": true,
     "amenities": [
       "Wifi",
-      "Toaletter",
-      "Electricitet",
-      "Dusch",
-      "Kök",
+      "Toilets",
+      "Electricity",
+      "Shower",
+      "Kitchen",
       "Pool",
-      "Eldplats"
+      "Fireplace"
     ],
     "reviews": []
   },
@@ -106,12 +106,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats"
+      "Playground"
     ],
     "reviews": []
   },
@@ -140,13 +140,13 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
-      "Husdjursvänligt"
+      "Playground",
+      "Pet-friendly"
     ],
     "reviews": []
   },
@@ -176,12 +176,12 @@
     "petFriendly": true,
     "amenities": [
       "Pool",
-      "Toaletter",
-      "Electricitet",
-      "Dusch",
-      "Kök",
+      "Toilets",
+      "Electricity",
+      "Shower",
+      "Kitchen",
       "Wifi",
-      "Lekplats"
+      "Playground"
     ],
     "reviews": []
   },
@@ -210,13 +210,13 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
-      "Husdjursvänligt"
+      "Playground",
+      "Pet-friendly"
     ],
     "reviews": []
   },
@@ -244,14 +244,14 @@
     "capacity": 10,
     "petFriendly": false,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool",
-      "Eldplats"
+      "Fireplace"
     ],
     "reviews": []
   },
@@ -279,12 +279,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
-      "Electricitet"
+      "Playground",
+      "Electricity"
     ],
     "reviews": []
   },
@@ -313,12 +313,12 @@
     "petFriendly": true,
     "amenities": [
       "Wifi",
-      "Toaletter",
-      "Electricitet",
-      "Dusch",
-      "Kök",
-      "Parkering",
-      "Eldplats"
+      "Toilets",
+      "Electricity",
+      "Shower",
+      "Kitchen",
+      "Parking",
+      "Fireplace"
     ],
     "reviews": []
   },
@@ -347,13 +347,13 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
-      "Husdjursvänligt"
+      "Playground",
+      "Pet-friendly"
     ],
     "reviews": []
   },
@@ -381,12 +381,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool"
     ],
     "reviews": []
@@ -416,12 +416,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool"
     ],
     "reviews": []
@@ -450,12 +450,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Parkering"
+      "Parking"
     ],
     "reviews": []
   },
@@ -482,13 +482,13 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool",
-      "Parkering"
+      "Parking"
     ],
     "reviews": []
   },
@@ -516,12 +516,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
-      "Husdjursvänligt"
+      "Playground",
+      "Pet-friendly"
     ],
     "reviews": []
   },
@@ -550,12 +550,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Parkering",
+      "Parking",
       "Pool"
     ],
     "reviews": []
@@ -584,12 +584,12 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Utetoaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Outdoor toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool"
     ],
     "reviews": []
@@ -618,14 +618,14 @@
     "capacity": 10,
     "petFriendly": true,
     "amenities": [
-      "Toaletter",
-      "Dusch",
-      "Electricitet",
-      "Kök",
+      "Toilets",
+      "Shower",
+      "Electricity",
+      "Kitchen",
       "Wifi",
-      "Lekplats",
+      "Playground",
       "Pool",
-      "Parkering"
+      "Parking"
     ],
     "reviews": []
   }
