@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #012d1d;
+  --color-primary-container: #1b4332;
+  --color-on-primary-container: #86af99;
+  --color-surface-container-lowest: #ffffff;
+}
+
 :root {
   --primary: #1B4332;
   --secondary: #A2D2FF;
