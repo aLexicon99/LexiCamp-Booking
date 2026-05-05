@@ -28,8 +28,6 @@ const benefits = [
   },
 ];
 
-const hostBenefits = ["Earn Passive Income", "Host with Confidence"];
-
 export default function Home() {
   return (
     <div className="bg-[#f8f9f5] text-[#082f23]">
@@ -146,53 +144,30 @@ export default function Home() {
       </section>
 
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl overflow-hidden rounded-lg bg-[#043f2d] text-white lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="px-6 py-16 sm:px-10 lg:px-16 lg:py-20">
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#fb8500]">
-              Host with LexiCamp
-            </p>
-            <h2 className="mt-4 max-w-2xl text-4xl font-extrabold leading-tight md:text-6xl">
-              Have a beautiful piece of land?
+        <div className="relative mx-auto flex max-w-7xl flex-col items-center overflow-hidden rounded-lg bg-[#043f2d] bg-[url('/images/action.jpg')] bg-cover bg-center px-6 py-24 text-center text-white">
+          <div className="absolute inset-0 bg-[#043f2d]/75" />
+          <div className="relative z-10 max-w-3xl">
+            <h2 className="text-4xl font-extrabold md:text-6xl">
+              Ready to Explore?
             </h2>
-            <p className="mt-5 max-w-xl text-lg text-white/80">
-              Share it with outdoor travelers and turn your campground into a
-              trusted LexiCamp destination.
+            <p className="mt-5 text-lg text-white/85">
+              Join 50,000+ explorers finding their peace in the wild. Your next
+              adventure starts with a single click.
             </p>
-
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              {hostBenefits.map((benefit) => (
-                <div key={benefit} className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-[#fb8500]">
-                    <svg
-                      aria-hidden="true"
-                      className="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="m5 13 4 4L19 7"
-                      />
-                    </svg>
-                  </span>
-                  <span className="font-bold">{benefit}</span>
-                </div>
-              ))}
+            <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
+              <Link
+                href="/campsites"
+                className="rounded-full bg-[#fb8500] px-8 py-4 font-bold text-white hover:bg-[#e67800]"
+              >
+                Start Booking Now
+              </Link>
+              <Link
+                href="/contact"
+                className="rounded-full border border-white/40 bg-white/15 px-8 py-4 font-bold text-white hover:bg-white/25"
+              >
+                Contact Support
+              </Link>
             </div>
-
-            <Link
-              href="/contact"
-              className="mt-10 inline-flex rounded-full bg-[#fb8500] px-8 py-4 font-bold text-white hover:bg-[#e67800]"
-            >
-              Host your campground
-            </Link>
-          </div>
-
-          <div className="min-h-[320px] bg-[url('/images/action.jpg')] bg-cover bg-center lg:min-h-full">
-            <div className="h-full w-full bg-[#043f2d]/20" />
           </div>
         </div>
       </section>
