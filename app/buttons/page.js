@@ -11,7 +11,6 @@ export default function Buttons() {
 
   return (
     <>
-      <link rel="stylesheet" href="https://googleapis.com" />
       <div className="m-10">
         <h1>Buttons</h1>
 
@@ -26,6 +25,9 @@ export default function Buttons() {
         <Button variant="arrow-backward" extraCssClasses="mr-3"/>
 
         <Button variant="arrow-forward"  extraCssClasses="mr-3"/>
+        <br/>
+        <br/>
+        <FilterBar/>        
       </div>
 
     </>
