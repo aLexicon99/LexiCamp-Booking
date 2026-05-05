@@ -14,7 +14,7 @@ export default function Loading(props) {
           onClick={() => setIsHidden("hidden")}
           className="text-white font-medium"
         >
-          Laddar...
+          {props.message || "Loading..."}
         </p>
       </div>
     </div>
