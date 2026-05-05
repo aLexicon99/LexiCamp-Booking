@@ -3,7 +3,10 @@
 import CancellationPolicyInfo from "./_components/CancellationPolicyInfo";
 import GuestDetails from "./_components/GuestDetails";
 import PaymentInfo from "./_components/PaymentInfo";
+import BookingDetails from "./_components/BookingDetails";
+import SustainableBookingInfo from "./_components/SustainableBookingInfo";
 import Link from "next/link";
+import campgrounds from "@/public/locations_data.json";
 
 export default function Booking() {
     return (
@@ -25,7 +28,12 @@ export default function Booking() {
                     <PaymentInfo/>
                     <CancellationPolicyInfo/>
                 </section>
-                {/*    TODO BookingDetails*/}
+                <aside className="lg:col-span-5">
+                    <div className="sticky top-32 space-y-6">
+                        <BookingDetails campground={campgrounds[17]} checkin="2026-07-20" checkout="2026-08-02"/>
+                        <SustainableBookingInfo/>
+                    </div>
+                </aside>
             </div>
         </div>
     );
