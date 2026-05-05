@@ -1,4 +1,10 @@
+"use client";
+
+import { useState } from "react";
+import DateSelector from "./DateSelector";
+
 export default function BookingSection({ campingsite }) {
+  const [guests, setGuests] = useState("2");
   return (
     <div className="relative">
       <div className="sticky top-28 bg-white border border-stone-200 rounded-2xl p-6 shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
@@ -17,14 +23,12 @@ export default function BookingSection({ campingsite }) {
               star
             </span>
             <span>{campingsite.rating}</span>
-            {/* <!-- <span className="text-stone-400">·</span> --> */}
-            {/* <!-- <span className="text-stone-500 underline">128 reviews</span> --> */}
           </div>
         </div>
 
         {/* <!-- Booking Fields --> */}
         <div className="border border-stone-300 rounded-xl overflow-hidden mb-6">
-          <div className="grid grid-cols-2 border-b border-stone-300">
+          {/* <div className="grid grid-cols-2 border-b border-stone-300">
             <div className="p-3 border-r border-stone-300 hover:bg-stone-50 cursor-pointer">
               <label className="block text-[10px] font-black uppercase text-emerald-900 mb-0.5">
                 Check-in
@@ -37,6 +41,9 @@ export default function BookingSection({ campingsite }) {
               </label>
               <div className="text-sm font-medium">6/20/2024</div>
             </div>
+          </div> */}
+          <div className="grid grid-cols-1 border-b border-stone-300">
+            <DateSelector />
           </div>
           <div className="p-3 hover:bg-stone-50 cursor-pointer flex justify-between items-center">
             <div>
@@ -52,7 +59,7 @@ export default function BookingSection({ campingsite }) {
         </div>
 
         {/* <!-- CTA Button --> */}
-        <button className="w-full bg-[#FF8C42] text-white font-extrabold py-4 rounded-xl shadow-lg hover:brightness-110 active:scale-[0.98] transition-all mb-4">
+        <button className="w-full cursor-pointer bg-[#FF8C42] text-white font-extrabold py-4 rounded-xl shadow-lg hover:brightness-110 active:scale-[0.98] transition-all mb-4">
           Book Now
         </button>
         <p className="text-center text-stone-500 text-sm mb-6">
@@ -101,6 +108,17 @@ export default function BookingSection({ campingsite }) {
           </div>
         </div>
       </div>
+
+
+
+    {/* TESTING */}
+
+    {/* <div className="sticky">
+      <DateSelector />
+    </div> */}
+
+
+
     </div>
   );
 }

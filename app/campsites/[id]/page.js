@@ -39,10 +39,10 @@ export default function Location() {
     <div className="p-2">
       {!campingsite.name ? (
         <Loading message={message} />
+      ) : (
         // Page is loading and waiting for data
         // if API failed - a message is displayed
         // to the user with info in <Loading />
-      ) : (
         // <div>
         //   <h3 className="text-4xl font-extrabold">
         //     Välkommen till{" "}

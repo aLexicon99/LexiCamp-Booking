@@ -6,7 +6,7 @@ export default function GalleryGrid({ campingsite }){
     return(
         <div>
         {/* Small screens */}
-        <section className="grid grid-cols-1 grid-rows-1 h-[300px] mb-12 overflow-hidden md:hidden">
+        <section className="grid grid-cols-1 grid-rows-1 h-75 mb-12 overflow-hidden md:hidden">
           <div className="col-span-2 row-span-2 relative">
             <Image
               width={600}
