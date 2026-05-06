@@ -29,8 +29,15 @@ export default function CampsiteHeader({ campingsite }) {
                   >
                     location_on
                   </span>
+
                   <span className="underline cursor-pointer">
-                    {campingsite.city}
+                    <a
+                      target="_blank"
+                      className="underline cursor-pointer"
+                      href={`https://www.openstreetmap.org/?mlat=${campingsite.location.lat}&mlon=${campingsite.location.lng}#map=12/${campingsite.location.lat}/${campingsite.location.lng}`}
+                    >
+                      {campingsite.city}
+                    </a>
                   </span>
                 </div>
               </>
