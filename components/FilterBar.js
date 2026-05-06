@@ -3,8 +3,10 @@
 import Button from "./Button";
 import { useEffect, useState } from "react";
 
-
-export default function FilterBar({ children, onPriceChange, onRatingChange, onAmenitiesChange, onLocationsChange, onActivitiesChange }) {
+/** FilterBar component. FilterBar har fem props (onPriceChange, onRatingChange, onAmenitiesChange, onLocationsChange, onActivitiesChange) ett 
+    för varje filter (priceFilter, ratingFilter, amenitiesFilter, locationsFilter, activitiesFilter). 
+    Filtren definieras i parent. När användaren ändrar ett filter skickas filtret till parent via respektive prop. */
+export default function FilterBar({ onPriceChange, onRatingChange, onAmenitiesChange, onLocationsChange, onActivitiesChange }) {
 
     const [Locations, setLocations] = useState([]);
     
