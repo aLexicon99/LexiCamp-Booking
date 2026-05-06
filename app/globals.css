@@ -4,9 +4,15 @@
   --color-primary: #012d1d;
   --color-primary-container: #1b4332;
   --color-on-primary-container: #86af99;
-  --color-surface-container-lowest: #ffffff;
+  --color-secondary-container: #a1d1fe;
   --color-accent: #ff8c42;
   --color-accent-hover: #e67e3a;
+  --color-surface: #f9faf6;
+  --color-on-surface: #1a1c1a;
+  --color-on-surface-variant: #414844;
+  --color-surface-container-lowest: #ffffff;
+  --color-outline: #717973;
+  --color-outline-variant: #c1c8c2;
 }
 
 :root {

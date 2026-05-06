@@ -15,6 +15,7 @@ export default function useLocalStorage(key, initialValue) {
 
   useEffect(() => {
     try {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
         setStoredValue(load(key));
     } catch (error) {
       console.error(`Error reading localStorage key "${key}":`, error);
