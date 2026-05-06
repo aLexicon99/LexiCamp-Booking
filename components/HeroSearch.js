@@ -48,7 +48,7 @@ export default function HeroSearch() {
         </div>
       </div>
       <Link
-        href={`/search${search && `?location=${search}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
+        href={`/campsites${search && `?location=${search}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
       >
         <button className="w-full md:w-auto bg-[#fb8500] hover:bg-[#e67a00] text-white px-6 py-4 rounded-md font-bold flex items-center justify-center gap-2 transition-all transform active:scale-95">
           <svg

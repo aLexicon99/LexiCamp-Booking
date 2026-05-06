@@ -3,7 +3,7 @@ import HeroSearch from "@/components/HeroSearch";
 import Link from "next/link";
 import campgrounds from "@/public/locations_data.json";
 
-const topPicks = campgrounds.slice(0, 3);
+const featuredDestinations = campgrounds.slice(0, 3);
 
 const benefits = [
   {
@@ -57,11 +57,15 @@ export default function Home() {
                 Curated
               </p>
               <h2 className="mt-3 text-4xl font-extrabold">
-                Top Picks for You
+                Featured Destinations
               </h2>
+              <p className="mt-3 max-w-2xl text-[#66736d]">
+                Explore a few hand-picked campsites ready for your next outdoor
+                escape.
+              </p>
             </div>
             <Link
-              href="/locations"
+              href="/campsites"
               className="hidden text-sm font-semibold text-[#043f2d] hover:text-[#fb8500] md:block"
             >
               View all destinations
@@ -69,8 +73,14 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {topPicks.map((campground) => (
-              <CampgroundCard key={campground.id} campground={campground} />
+            {featuredDestinations.map((campground) => (
+              <Link
+                key={campground.id}
+                href={`/campsites/${campground.id}`}
+                className="block transition-transform hover:-translate-y-1"
+              >
+                <CampgroundCard campground={campground} />
+              </Link>
             ))}
           </div>
         </div>
@@ -146,7 +156,7 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
               <Link
-                href="/locations"
+                href="/campsites"
                 className="rounded-full bg-[#fb8500] px-8 py-4 font-bold text-white hover:bg-[#e67800]"
               >
                 Start Booking Now
