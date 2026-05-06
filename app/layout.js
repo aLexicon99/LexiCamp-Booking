@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import {AuthProvider} from "@/hooks/useAuth";
 import Script from "next/script";
 export const dynamic = "force-dynamic";
 
@@ -40,11 +41,13 @@ export default function RootLayout({ children }) {
           src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
         />
       </head>
-      <body className="flex min-h-screen flex-col bg-[#f8f9f5]">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </body>
+      <AuthProvider>
+        <body className="flex min-h-screen flex-col bg-[#f8f9f5]">
+          <Header/>
+          <main className="flex-1 pt-20">{children}</main>
+          <Footer/>
+        </body>
+      </AuthProvider>
     </html>
   );
 }
