@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { redirect } from "next/navigation";
 import DateSelector from "./DateSelector";
 import GuestDropdown from "./GuestDropdown";
 import PriceCalculation from "./PriceCalculation";
@@ -28,6 +29,10 @@ export default function BookingSection({ campingsite }) {
     setTotalDays(totalDays);
   }, [checkIn, checkOut]);
 
+  function redirectToBooking() {
+    redirect(`/booking?campsite=${campingsite.id}&checkIn=${checkIn}&checkOut=${checkOut}`)
+  }
+
   return (
     <div className="relative">
       <div className="sticky top-28 bg-white border border-stone-200 rounded-2xl p-6 shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
@@ -49,7 +54,6 @@ export default function BookingSection({ campingsite }) {
           </div>
         </div>
 
-        {/* <!-- Booking Fields --> */}
         <div className="border border-stone-300 rounded-xl overflow-hidden mb-6">
           <div className="grid grid-cols-1 border-b border-stone-300">
             <DateSelector
@@ -62,12 +66,19 @@ export default function BookingSection({ campingsite }) {
           <GuestDropdown />
         </div>
 
-        <button className="w-full cursor-pointer bg-[#FF8C42] text-white font-extrabold py-4 rounded-xl shadow-lg hover:brightness-110 active:scale-[0.98] transition-all mb-4">
-          Book Now
-        </button>
-        <p className="text-center text-stone-500 text-sm mb-6">
-          {"You won't be charged yet"}
-        </p>
+        {days > 0 && (
+          <>
+            <button
+              onClick={() => redirectToBooking()}
+              className="w-full cursor-pointer bg-[#FF8C42] text-white text-sm font-extrabold tracking-widest py-4 rounded-lg shadow-lg hover:brightness-110 active:scale-[0.98] transition-all mb-4"
+            >
+              Reserve Now
+            </button>
+            <p className="text-center text-stone-500 text-sm mb-6">
+              {"You won't be charged yet"}
+            </p>
+          </>
+        )}
 
         <PriceCalculation price={campingsite.pricePerNight} days={days} />
 

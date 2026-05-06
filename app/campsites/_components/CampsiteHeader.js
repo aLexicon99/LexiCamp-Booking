@@ -1,3 +1,5 @@
+"use client";
+
 export default function CampsiteHeader({ campingsite }) {
   return (
     <header className="mb-8">

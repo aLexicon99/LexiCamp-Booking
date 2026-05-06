@@ -1,6 +1,8 @@
+"use client";
+
 export default function InfoSection({ campingsite }) {
   return (
-    <section className="border-b border-stone-200 pb-10">
+    <section className="border-stone-200 pb-5">
       <div className="flex justify-between items-center">
         <div>
           <h2 className="text-2xl font-bold text-emerald-900 mb-1">

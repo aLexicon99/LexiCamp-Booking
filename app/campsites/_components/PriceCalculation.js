@@ -1,11 +1,6 @@
-export default function PriceCalculation({ price, days }) {
-  {
-    /* 
-    cleaning / dayprice / 2 (0.5) 
-    service fee dayprice
-   */
-  }
+"use client";
 
+export default function PriceCalculation({ price, days }) {
   const CLEANING_FEE_PERCENTAGE = 0.5;
   const SERVICE_FEE_PERCENTAGE = 0.2;
 
@@ -13,33 +8,33 @@ export default function PriceCalculation({ price, days }) {
   const cleaningFee = Math.ceil(price * CLEANING_FEE_PERCENTAGE);
   const serviceFee = Math.ceil(campingPrice * SERVICE_FEE_PERCENTAGE);
 
-  console.log({ cleaning: cleaningFee, service: serviceFee });
-
   return (
     <>
       {days > 0 ? (
         <>
           <div className="space-y-3 mb-6">
             <div className="flex justify-between text-stone-600">
-              <span className="underline">
-                {price} x {days} {days < 2 ? "day" : "days"}
+              <span>
+                {price} kr x {days} {days < 2 ? "night" : "nights"}
               </span>
-              <span>{price * days}kr</span>
+              <span className="font-bold text-stone-800">{price * days} kr</span>
             </div>
 
             <div className="flex justify-between text-stone-600">
-              <span className="underline">Cleaning fee</span>
-              <span>{cleaningFee} kr</span>
+              <span>Cleaning fee</span>
+              <span className="font-bold text-stone-800">{cleaningFee} kr</span>
             </div>
 
             <div className="flex justify-between text-stone-600">
-              <span className="underline">LexiCamp service fee</span>
-              <span>{serviceFee}kr</span>
+              <span>LexiCamp service fee</span>
+              <span className="font-bold text-stone-800">{serviceFee} kr</span>
             </div>
           </div>
           <div className="border-t border-stone-200 pt-4 flex justify-between font-extrabold text-emerald-900 text-lg">
             <span>Total before taxes</span>
-            <span>{(price * days) + cleaningFee + serviceFee}kr</span>
+            <span className="font-extrabold text-2xl">
+              {price * days + cleaningFee + serviceFee} kr
+            </span>
           </div>
         </>
       ) : (

@@ -1,3 +1,5 @@
+"use client";
+
 export default function AboutSection({ campingsite }) {
   return (
     <section className="border-t border-stone-200 pt-10">

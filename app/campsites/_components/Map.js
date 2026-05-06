@@ -8,10 +8,10 @@ export default function Map({ lati, long }) {
 
   useEffect(() => {
     if (maps.current || !window.L) return;
-    maps.current = window.L.map(mapContainer.current).setView([lati, long], 14);
+    maps.current = window.L.map(mapContainer.current).setView([lati, long], 12);
 
     window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 17,
+      maxZoom: 16,
     }).addTo(maps.current);
 
     window.L.marker([lati, long]).addTo(maps.current);

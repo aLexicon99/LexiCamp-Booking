@@ -1,7 +1,7 @@
 "use client";
 
-import Map from "@/components/Map";
 import Image from "next/image";
+import Map from "@/app/campsites/_components/Map";
 
 export default function GalleryGrid({ campingsite }) {
   return (
@@ -51,8 +51,11 @@ export default function GalleryGrid({ campingsite }) {
           </div>
         ))}
 
-        <div className="col-span-2">
-          <Map lati={campingsite.location.lat} long={campingsite.location.lng} />
+        <div className="col-span-2 z-10">
+          <Map
+            lati={campingsite.location.lat}
+            long={campingsite.location.lng}
+          />
         </div>
       </section>
     </div>

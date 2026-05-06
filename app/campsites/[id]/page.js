@@ -20,11 +20,8 @@ export default function Location() {
         });
         const data = await response.json();
 
-        if (data.message)
-          setMessage(data.message); // Shows API Message to user
-        else {
-          setCampingsite(data);
-        }
+        if (data.message) setMessage(data.message);
+        else setCampingsite(data);
       } catch (error) {
         console.warn(`[API-FEL][campsites/:id=${id}]`, error);
       }
