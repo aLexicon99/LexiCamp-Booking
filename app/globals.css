@@ -5,6 +5,8 @@
   --color-primary-container: #1b4332;
   --color-on-primary-container: #86af99;
   --color-surface-container-lowest: #ffffff;
+  --color-accent: #ff8c42;
+  --color-accent-hover: #e67e3a;
 }
 
 :root {
