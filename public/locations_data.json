@@ -4,8 +4,8 @@
     "name": "Barsebäckstrands Camping",
     "city": "Barsebäck",
     "location": {
-      "lat": 55.770310000000002,
-      "lng": 12.925890000000001
+      "lat": 55.77031,
+      "lng": 12.92589
     },
     "images": [
       "image1.jpg",
@@ -14,24 +14,29 @@
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7842963.jpeg.webp?itok=FlX2QQBW",
     "url": "https://camping.se/sv/campingar/4005/Barsebackstrands-Camping",
     "directUrl": "https://barsebackstrandscamping.se/",
-    "description": "Small and peaceful campsite located right by Öresund. Here you can enjoy a beautiful sandy beach, bathing dock and fantastic sunset views.",
-    "fullDescription": "At Barsebäckstrands Camping, the sea is your nearest neighbor and all pitches enjoy a beautiful sea view with a pathway down to the white shallow beach or perhaps a dip from the dock.<br /> Here you have access to two service buildings to make your camping experience more comfortable. The older service building has hostel rooms, kitchen, shower and toilets. The newer service building is a pavilion with toilets and separate shower rooms.",
+    "description": "A quiet seaside campsite in Barsebäck with views over Öresund, shallow swimming and a relaxed coastal atmosphere.",
+    "fullDescription": "Barsebäckstrands Camping is a small, peaceful campsite where the sea is the main attraction. The pitches sit close to the water, with easy access to the sandy beach, bathing dock and sunset views over Öresund. It works well for guests who want a calm base for swimming, slow walks along the coast, golf nearby and simple camping days rather than a busy resort feeling.",
     "activities": [
       "Beach",
-      "Close to sea",
-      "Sea",
-      "Golf",
-      "Motorhome",
-      "Midsummer celebration",
-      "Peace and quiet",
-      "Sun and swimming",
-      "View"
+      "Sea swimming",
+      "Bathing dock",
+      "Coastal walks",
+      "Golf nearby",
+      "Sunset views",
+      "Cycling",
+      "Relaxation",
+      "Motorhome camping"
     ],
     "pricePerNight": 230,
-    "rating": 6.5,
+    "rating": 8.4,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "coastal",
+      "quiet"
+    ],
+    "capacity": 85,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -58,18 +63,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7855207.jpeg.webp?itok=QIZTcb0M",
     "url": "https://camping.se/sv/campingar/2825/Bingsmarkens-Camping",
-    "description": "Bingsmarkens Camping is a nice family campsite, between Trelleborg and Ystad on Sweden's south coast. The campsite is only 75 meters from the sea, at a fine-grained, shallow sandy beach.",
-    "fullDescription": "Bingsmarkens Camping – or Scania's Hawaii, as it's also called – is a nice family campsite, between Trelleborg and Ystad on Sweden's south coast.<br /> Here there are pitches for caravans, motorhomes and tents. You can also rent a cottage, glamping tent or caravan on site.",
+    "description": "A family-friendly south coast campsite near Skivarp, close to a shallow sandy beach between Trelleborg and Ystad.",
+    "fullDescription": "Bingsmarkens Camping is a relaxed family campsite on Sweden's south coast, only a short walk from a fine-grained and shallow sandy beach. The area is well suited for sunny beach days, children playing by the water and easy excursions toward Ystad, Trelleborg and the surrounding countryside. With cottages, pitches and glamping-style options, it fits both classic campers and guests who want a little more comfort.",
     "activities": [
-      "Close to sea",
-      "Family",
-      "Pool"
+      "Beach",
+      "Sea swimming",
+      "Family activities",
+      "Playground",
+      "Pool",
+      "Cycling",
+      "Coastal walks",
+      "Glamping",
+      "Day trips"
     ],
     "pricePerNight": 460,
-    "rating": 6.5,
+    "rating": 8.1,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "countryside",
+      "family-friendly"
+    ],
+    "capacity": 170,
     "petFriendly": true,
     "amenities": [
       "Wifi",
@@ -86,7 +102,7 @@
     "id": "2084510",
     "name": "Borrbystrand Camping",
     "location": {
-      "lat": 55.434609520000002,
+      "lat": 55.43460952,
       "lng": 14.23235032
     },
     "images": [
@@ -96,14 +112,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7408784.jpeg.webp?itok=9smlfz_J",
     "url": "https://camping.se/sv/campingar/2790/Borrbystrand-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A beach-close Österlen campsite in Borrby, perfect for sandy beach days, family activities and a calm coastal stay.",
+    "fullDescription": "Borrbystrand Camping is located close to one of Österlen's wide sandy beaches, making it a good choice for guests who want sea air, swimming and a slower holiday tempo. The campsite has a friendly family feel with simple activities on site, while the surrounding area offers classic Österlen scenery, small villages, walking routes and easy excursions to beaches and local cafés.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Playground",
+      "Boule",
+      "Tennis",
+      "Table tennis",
+      "Shuffleboard",
+      "Hiking",
+      "Österlen excursions"
+    ],
     "pricePerNight": 250,
-    "rating": 6.5,
+    "rating": 8.6,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "coastal",
+      "nature"
+    ],
+    "capacity": 140,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -113,13 +144,14 @@
       "Wifi",
       "Playground"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Borrby"
   },
   {
     "id": "2084622",
     "name": "Borstahusen Campingresort",
     "location": {
-      "lat": 55.901194799999999,
+      "lat": 55.9011948,
       "lng": 12.80482495
     },
     "images": [
@@ -130,14 +162,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/9648880.jpeg.webp?itok=pc9DSVs6",
     "url": "https://camping.se/sv/campingar/2812/Borstahusen-Campingresort",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A modern seaside resort in Borstahusen near Landskrona, with beach, golf, spa and plenty to do within walking distance.",
+    "fullDescription": "Borstahusen Campingresort is a polished coastal resort on the Skåne west coast, close to the sea, the old fishing village and Landskrona. It suits guests who want more than a pitch: beach time, restaurants, spa, adventure golf and nearby golf courses are all part of the experience. The area also makes a good base for cycling, coastal walks and excursions toward Ven, Landskrona and Helsingør.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Spa",
+      "Adventure golf",
+      "Golf",
+      "Cycling",
+      "Coastal walks",
+      "Restaurant",
+      "Day trips"
+    ],
     "pricePerNight": 300,
-    "rating": 6.5,
+    "rating": 8.8,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "coastal",
+      "resort"
+    ],
+    "capacity": 260,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -148,7 +195,8 @@
       "Playground",
       "Pet-friendly"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Landskrona"
   },
   {
     "id": "2093388",
@@ -165,14 +213,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15522604.jpeg.webp?itok=oCJPpDj6",
     "url": "https://camping.se/sv/campingar/2795/Bromolla-Camping-Vandrarhem",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A lakeside campsite and hostel in Bromölla near Ivösjön, with swimming, fishing and nature close by.",
+    "fullDescription": "Bromölla Camping & Vandrarhem is set near Ivösjön and works well for guests who want an active but nature-focused stay. The lake offers swimming, fishing and water activities, while nearby paths and routes make it easy to cycle, walk or explore the local landscape. Families can enjoy the playground and minigolf, and the area is also close to outdoor spots like Kjugekull and local cultural sights.",
+    "activities": [
+      "Lake swimming",
+      "Fishing",
+      "Canoeing",
+      "Boat rental",
+      "Cycling",
+      "Mini golf",
+      "Playground",
+      "Hiking",
+      "Nature excursions"
+    ],
     "pricePerNight": 150,
-    "rating": 6.5,
+    "rating": 7.6,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "lake",
+      "forest",
+      "town-near",
+      "family-friendly"
+    ],
+    "capacity": 120,
     "petFriendly": true,
     "amenities": [
       "Pool",
@@ -183,14 +246,15 @@
       "Wifi",
       "Playground"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Bromölla"
   },
   {
     "id": "2833406",
     "name": "Båstad Camping",
     "location": {
-      "lat": 56.437991400000001,
-      "lng": 12.916775299999999
+      "lat": 56.4379914,
+      "lng": 12.9167753
     },
     "images": [
       "image1.jpg",
@@ -200,14 +264,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15640605.jpeg.webp?itok=MW6vnABX",
     "url": "https://camping.se/sv/campingar/4027/Bastad-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A lively campsite on Bjärehalvön near Båstad, close to the sea, long beaches, restaurants and summer activities.",
+    "fullDescription": "Båstad Camping sits where Bjärehalvön meets the sea and is a good base for both beach days and active holidays. Guests are close to long sandy beaches, the summer atmosphere of Båstad, hiking on Bjäre and family-friendly facilities on site. It is especially suitable for those who want a mix of swimming, restaurant evenings, tennis-town energy and excursions along the Skåne Riviera.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Boule",
+      "Playground",
+      "Hiking",
+      "Cycling",
+      "Tennis nearby",
+      "Restaurant",
+      "Bjäre excursions"
+    ],
     "pricePerNight": 99,
-    "rating": 6.5,
+    "rating": 8.3,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "town-near",
+      "coastal"
+    ],
+    "capacity": 190,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -218,13 +297,14 @@
       "Playground",
       "Pet-friendly"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Båstad"
   },
   {
     "id": "2092738",
     "name": "Caravan Club Norrvikens Camping",
     "location": {
-      "lat": 56.453454800000003,
+      "lat": 56.4534548,
       "lng": 12.7858175
     },
     "images": [
@@ -234,14 +314,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/14210743.jpeg.webp?itok=vxIkPJF5",
     "url": "https://camping.se/sv/campingar/3416/Caravan-Club-Norrvikens-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A calm seaside campsite near Norrviken and Båstad, with coastal walks, swimming and nature on Bjärehalvön.",
+    "fullDescription": "Caravan Club Norrvikens Camping is a peaceful campsite by the sea west of Båstad, close to Norrviken's gardens and the dramatic landscape of Bjärehalvön. The beach is nearby and the area is well suited for walking, cycling and quiet camping days. It is a good fit for guests who want nature, sea views and easy access to Båstad without staying in the busiest part of town.",
+    "activities": [
+      "Sea swimming",
+      "Bathing jetty",
+      "Boule",
+      "Mini golf",
+      "Table tennis",
+      "Playground",
+      "Cycling",
+      "Hiking",
+      "SUP"
+    ],
     "pricePerNight": 235,
-    "rating": 6.5,
+    "rating": 7.9,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "garden",
+      "coastal",
+      "nature",
+      "quiet"
+    ],
+    "capacity": 160,
     "petFriendly": false,
     "amenities": [
       "Toilets",
@@ -253,14 +348,15 @@
       "Pool",
       "Fireplace"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Båstad"
   },
   {
     "id": "2085458",
     "name": "Falsterbo Camping & Resort",
     "location": {
       "lat": 55.39769476,
-      "lng": 12.865152180000001
+      "lng": 12.86515218
     },
     "images": [
       "image1.jpg",
@@ -269,14 +365,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/11406421.jpeg.webp?itok=fsiiXNBz",
     "url": "https://camping.se/sv/campingar/2814/Falsterbo-Camping-Resort",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A coastal resort in Falsterbo with beaches, nature reserves, golf courses and classic summer activities nearby.",
+    "fullDescription": "Falsterbo Camping & Resort is set in one of Skåne's most distinctive coastal areas, close to sandy beaches, Skanör-Falsterbo nature and several golf courses. It is a great base for guests who want to combine beach life with biking, birdwatching, SUP, minigolf and relaxed evenings. The area is also known for its open landscapes, migrating birds and excursions toward Måkläppen when the season allows.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Birdwatching",
+      "Cycling",
+      "Golf nearby",
+      "Mini golf",
+      "SUP",
+      "Padel",
+      "Nature reserves"
+    ],
     "pricePerNight": 125,
-    "rating": 6.5,
+    "rating": 8.5,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "nature-reserve",
+      "coastal"
+    ],
+    "capacity": 230,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -286,13 +397,14 @@
       "Playground",
       "Electricity"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Falsterbo"
   },
   {
     "id": "2090176",
     "name": "Grottbyns Camping",
     "location": {
-      "lat": 55.960196689999997,
+      "lat": 55.96019669,
       "lng": 13.53721387
     },
     "images": [
@@ -302,14 +414,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10382908.jpeg.webp?itok=lUq01Aw8",
     "url": "https://camping.se/sv/campingar/2827/Grottbyns-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A playful campsite near Skånes Djurpark in Höör, known for cave-style accommodation and family adventures.",
+    "fullDescription": "Grottbyns Camping is located next to Skånes Djurpark and has a fun, storybook-like feeling thanks to its cave-inspired accommodation. It is a strong choice for families who want a base near the zoo, but also for guests who want central Skåne nature, lakes, hiking and simple outdoor activities. Nearby areas offer swimming, fishing, canoeing and forest walks, while the campsite itself keeps the mood casual and adventurous.",
+    "activities": [
+      "Skånes Djurpark",
+      "Adventure golf",
+      "Playground",
+      "Hiking",
+      "Lake swimming",
+      "Fishing",
+      "Canoeing nearby",
+      "Forest walks",
+      "Family activities"
+    ],
     "pricePerNight": 200,
-    "rating": 6.5,
+    "rating": 7.8,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "forest",
+      "nature",
+      "family-friendly",
+      "countryside"
+    ],
+    "capacity": 150,
     "petFriendly": true,
     "amenities": [
       "Wifi",
@@ -320,13 +447,14 @@
       "Parking",
       "Fireplace"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Höör"
   },
   {
     "id": "2090351",
     "name": "Jägersbo Camping SweCamp",
     "location": {
-      "lat": 55.903168479999998,
+      "lat": 55.90316848,
       "lng": 13.5643101
     },
     "images": [
@@ -337,14 +465,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7253713.jpeg.webp?itok=gwvBbH59",
     "url": "https://camping.se/sv/campingar/2822/Jagersbo-Camping-SweCamp",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A year-round campsite by Ringsjön in Höör, with lake swimming, boats, fishing and a green nature setting.",
+    "fullDescription": "Jägersbo Camping SweCamp lies directly by Ringsjön and is a good match for campers who want lake views and easy outdoor activities. Guests can swim from the jetty, rent canoes or boats, fish, walk along the lakeside or simply enjoy the peaceful surroundings. The location also works well for families, dog owners and anyone who wants a central Skåne base with both water and woodland nearby.",
+    "activities": [
+      "Lake swimming",
+      "Bathing jetty",
+      "Canoe rental",
+      "Rowboat rental",
+      "Fishing",
+      "Pedal boats",
+      "Hiking",
+      "Cycling",
+      "Dog-friendly walks"
+    ],
     "pricePerNight": 300,
-    "rating": 6.5,
+    "rating": 8.0,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "lake",
+      "forest",
+      "nature",
+      "family-friendly"
+    ],
+    "capacity": 210,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -355,14 +498,15 @@
       "Playground",
       "Pet-friendly"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Höör"
   },
   {
     "id": "2092642",
     "name": "Kiviks Familjecamping",
     "location": {
-      "lat": 55.691368709999999,
-      "lng": 14.213731770000001
+      "lat": 55.69136871,
+      "lng": 14.21373177
     },
     "images": [
       "image1.jpg",
@@ -371,14 +515,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7418191.jpeg.webp?itok=zqSSVP2a",
     "url": "https://camping.se/sv/campingar/3238/Kiviks-Familjecamping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A family campsite in Kivik on Österlen, close to beaches, apple orchards and scenic day trips.",
+    "fullDescription": "Kiviks Familjecamping is a quiet and family-oriented campsite in a beautiful part of Österlen, close to the sea, sandy beaches and classic Kivik scenery. It is a good base for guests who want a calm camping stay with access to playgrounds, walks, restaurants and excursions to apple orchards, Stenshuvud, local markets and small coastal villages. The atmosphere is simple, sunny and very Österlen.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Playground",
+      "Hiking",
+      "Cycling",
+      "Golf nearby",
+      "Apple orchards",
+      "Stenshuvud excursions",
+      "Österlen sightseeing"
+    ],
     "pricePerNight": 120,
-    "rating": 6.5,
+    "rating": 8.2,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "coastal",
+      "village",
+      "family-friendly"
+    ],
+    "capacity": 135,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -389,14 +548,15 @@
       "Playground",
       "Pool"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Kivik"
   },
   {
     "id": "2093226",
     "name": "Lomma Camping",
     "location": {
-      "lat": 55.688754369999998,
-      "lng": 13.057560909999999
+      "lat": 55.68875437,
+      "lng": 13.05756091
     },
     "images": [
       "image1.jpg",
@@ -406,14 +566,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10284436.jpeg.webp?itok=pPMkLbRC",
     "url": "https://camping.se/sv/campingar/2826/Lomma-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A beachside campsite in Lomma with a long sandy beach, swimming pier and easy trips to Malmö and Lund.",
+    "fullDescription": "Lomma Camping is set right by one of the area's most popular sandy beaches, making it ideal for swimming, beach walks and relaxed summer days. The location also suits active guests, with beach volleyball, minigolf, jogging, cycling and kitesurfing nearby. Because Lomma sits between Malmö and Lund, the campsite works well as a coastal base for both beach life and city day trips.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Swimming pier",
+      "Beach volleyball",
+      "Mini golf",
+      "Kitesurfing",
+      "Jogging",
+      "Cycling",
+      "Malmö and Lund day trips"
+    ],
     "pricePerNight": 450,
-    "rating": 6.5,
+    "rating": 8.4,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "town-near",
+      "coastal"
+    ],
+    "capacity": 220,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -424,13 +599,14 @@
       "Playground",
       "Pool"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Lomma"
   },
   {
     "id": "2093122",
     "name": "Orebackens Camping",
     "location": {
-      "lat": 55.626119189999997,
+      "lat": 55.62611919,
       "lng": 13.71982708
     },
     "images": [
@@ -440,14 +616,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7417985.jpeg.webp?itok=O2eejFKG",
     "url": "https://camping.se/sv/campingar/2820/Orebackens-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A forest-close campsite in Sjöbo with peaceful walking trails, outdoor activities and nature around the corner.",
+    "fullDescription": "Orebackens Camping is a calm campsite near forest and outdoor areas in Sjöbo, suited for guests who prefer greenery, walking trails and a quieter pace. The surrounding area offers running loops, cycling routes and nearby nature experiences such as Fyledalen. It is a practical base for families and nature lovers who want a simple stay with easy access to both relaxation and activity.",
+    "activities": [
+      "Forest walks",
+      "Hiking",
+      "Running trails",
+      "Cycling",
+      "Mini golf",
+      "Playground",
+      "Outdoor fitness",
+      "Fyledalen excursions",
+      "Relaxation"
+    ],
     "pricePerNight": 250,
-    "rating": 6.5,
+    "rating": 7.7,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "countryside",
+      "nature",
+      "quiet",
+      "town-near"
+    ],
+    "capacity": 95,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -457,13 +648,14 @@
       "Wifi",
       "Parking"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Sjöbo"
   },
   {
     "id": "2092247",
     "name": "Ringsjöstrands Resort",
     "location": {
-      "lat": 55.850068950000001,
+      "lat": 55.85006895,
       "lng": 13.58737988
     },
     "images": [
@@ -472,14 +664,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/7257509.jpeg.webp?itok=oO987Fgw",
     "url": "https://camping.se/sv/campingar/2821/Ringsjostrands-Resort",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A nature-focused resort by Ringsjön with lake views, kayaking, fishing and family-friendly activities.",
+    "fullDescription": "Ringsjöstrands Resort is located by Ringsjön in central Skåne, surrounded by green areas and calm lake scenery. It suits guests who want a mix of nature, comfort and activities: swimming, kayaking, fishing, minigolf, walking trails and cycling routes are all close at hand. During the warmer season, the resort feeling grows with family activities, food, music and lake-side summer evenings.",
+    "activities": [
+      "Lake swimming",
+      "Kayaking",
+      "Fishing",
+      "Boat rental",
+      "SUP",
+      "Mini golf",
+      "Hiking",
+      "Cycling",
+      "Family activities"
+    ],
     "pricePerNight": 350,
-    "rating": 6.5,
+    "rating": 8.1,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "lake",
+      "nature",
+      "resort",
+      "family-friendly"
+    ],
+    "capacity": 240,
     "petFriendly": true,
     "amenities": [
       "Shower",
@@ -490,7 +697,8 @@
       "Pool",
       "Parking"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Höör"
   },
   {
     "id": "2089232",
@@ -506,14 +714,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/11406574.jpeg.webp?itok=0QiW4jfo",
     "url": "https://camping.se/sv/campingar/2791/Tobisviks-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A seaside campsite in Simrishamn with sandy beach, pools, minigolf and summer activities for families.",
+    "fullDescription": "Tobisviks Camping sits by Tobisviken in Simrishamn, close to a long sandy beach and the popular outdoor pool area Tobisviksbadet. It is a strong summer choice for families, with activities such as minigolf, beach games, tennis, kids' club and cycling or walking tours nearby. The campsite also makes a convenient base for discovering Simrishamn and the rest of Österlen.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Outdoor pools",
+      "Kids club",
+      "Mini golf",
+      "Tennis",
+      "Beach volleyball",
+      "Cycling",
+      "Österlen excursions"
+    ],
     "pricePerNight": 240,
-    "rating": 6.5,
+    "rating": 8.3,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "town-near",
+      "coastal"
+    ],
+    "capacity": 180,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -523,14 +746,15 @@
       "Playground",
       "Pet-friendly"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Simrishamn"
   },
   {
     "id": "2094701",
     "name": "Trelleborg Strand Camping",
     "location": {
       "lat": 55.36383944,
-      "lng": 13.209497150000001
+      "lng": 13.20949715
     },
     "images": [
       "image1.jpg",
@@ -540,14 +764,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/10650919.jpeg.webp?itok=FqmnZwPG",
     "url": "https://camping.se/sv/campingar/2816/Trelleborg-Strand-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A coastal campsite near Trelleborg with sea bathing, beach activities and easy access to the city and south coast.",
+    "fullDescription": "Trelleborg Strand Camping is located close to the water east of Trelleborg, with a relaxed south coast feeling and access to swimming from the pier. It works well for guests who want a mix of beach life, simple activities and excursions into Trelleborg. Nearby options include beach volleyball, padel, boules, cycling, birdwatching and the Skåre snorkeling trail for a more unusual sea experience.",
+    "activities": [
+      "Sea swimming",
+      "Swimming pier",
+      "Beach volleyball",
+      "Padel",
+      "Boule",
+      "Cycling",
+      "Birdwatching",
+      "Snorkeling trail",
+      "Trelleborg excursions"
+    ],
     "pricePerNight": 300,
-    "rating": 6.5,
+    "rating": 7.9,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "town-near",
+      "coastal"
+    ],
+    "capacity": 200,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -558,14 +797,15 @@
       "Parking",
       "Pool"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Trelleborg"
   },
   {
     "id": "2092993",
     "name": "Ystad Camping",
     "location": {
-      "lat": 55.433116317409201,
-      "lng": 13.864613129526701
+      "lat": 55.4331163174092,
+      "lng": 13.8646131295267
     },
     "images": [
       "image1.jpg",
@@ -574,14 +814,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/9647905.jpeg.webp?itok=QAF_Knio",
     "url": "https://camping.se/sv/campingar/2819/Ystad-Camping",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A year-round campsite near Ystad's sandy beach and Sandskogen, ideal for sea, town walks and Österlen trips.",
+    "fullDescription": "Ystad Camping is located close to the beach and the green Sandskogen area, making it a good choice for guests who want both sea and town within easy reach. The campsite works for classic summer camping, cottage stays and quieter off-season visits. From here, guests can enjoy swimming, beach walks, cycling, Ystad's historic streets, restaurants and day trips along the Österlen coast.",
+    "activities": [
+      "Beach",
+      "Sea swimming",
+      "Beach walks",
+      "Cycling",
+      "Sandskogen",
+      "Ystad sightseeing",
+      "Restaurants nearby",
+      "Events",
+      "Österlen day trips"
+    ],
     "pricePerNight": 200,
-    "rating": 6.5,
+    "rating": 8.2,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "sea",
+      "beach",
+      "town-near",
+      "family-friendly"
+    ],
+    "capacity": 210,
     "petFriendly": true,
     "amenities": [
       "Outdoor toilets",
@@ -592,13 +847,14 @@
       "Playground",
       "Pool"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Ystad"
   },
   {
     "id": "2825626",
     "name": "Ängdala Camping på Österlen",
     "location": {
-      "lat": 55.709974899999999,
+      "lat": 55.7099749,
       "lng": 14.1694938
     },
     "images": [
@@ -608,14 +864,29 @@
     ],
     "imageUrl": "https://camping.se/sites/cb_camping/files/styles/medium/http/images.citybreak.com/15219602.jpeg.webp?itok=59lKakzz",
     "url": "https://camping.se/sv/campingar/4055/Angdala-Camping-pa-Osterlen",
-    "description": "",
-    "fullDescription": "",
-    "activities": [],
+    "description": "A small countryside campsite on Österlen near Kivik, with horses, cycling routes, beaches and peaceful rural views.",
+    "fullDescription": "Ängdala Camping på Österlen has a rural and peaceful setting near Kivik, surrounded by fields, animals and the rolling landscape of Österlen. It is a good fit for guests who want a quieter campsite with easy access to cycling routes, beaches, nature reserves and small villages. The campsite has a warm countryside feel, with activities like boule, riding, walks and day trips toward Brösarp, Haväng, Vitemölla and Kivik.",
+    "activities": [
+      "Cycling",
+      "Horse riding",
+      "Boule",
+      "Playground",
+      "Football",
+      "Birdwatching",
+      "Hiking",
+      "Beach excursions",
+      "Österlen sightseeing"
+    ],
     "pricePerNight": 500,
-    "rating": 6.5,
+    "rating": 8.7,
     "tags": [],
-    "environment": [],
-    "capacity": 10,
+    "environment": [
+      "countryside",
+      "coastal",
+      "nature",
+      "quiet"
+    ],
+    "capacity": 110,
     "petFriendly": true,
     "amenities": [
       "Toilets",
@@ -627,6 +898,7 @@
       "Pool",
       "Parking"
     ],
-    "reviews": []
+    "reviews": [],
+    "city": "Kivik"
   }
 ]
