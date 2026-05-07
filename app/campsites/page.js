@@ -15,10 +15,10 @@ import {
 } from "./_components/FilterSearchFunctions";
 
 export default function Locations() {
+  const [message, setMessage] = useState(false);
   const [campsites, setCampsites] = useState([]);
   const [sortByPrice, setSortByPrice] = useState(false);
   const [sortByRating, setSortByRating] = useState(false);
-  const [message, setMessage] = useState(false);
 
   const searchParams = useSearchParams();
   const location = searchParams.get("location");
@@ -54,7 +54,7 @@ export default function Locations() {
   return (
     <>
       {campsites.length === 0 && !message ? (
-        <Loading message={message} />
+        <Loading />
       ) : (
         <>
           <div className="flex justify-around h-full">
