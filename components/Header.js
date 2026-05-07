@@ -82,9 +82,11 @@ export default function Header() {
             aria-controls="mobile-navigation"
             aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen((open) => !open)}
-            className="material-symbols-outlined flex h-10 w-10 items-center justify-center rounded-full text-[1.8rem] text-emerald-900 transition-colors hover:bg-emerald-900/5 md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-full text-emerald-900 transition-colors hover:bg-emerald-900/5 md:hidden"
           >
-            {isMenuOpen ? "close" : "menu"}
+            <span className="material-symbols-outlined text-[1.8rem]">
+              {isMenuOpen ? "close" : "menu"}
+            </span>
           </button>
         </div>
       </div>
