@@ -41,7 +41,7 @@ export default function FilterBar({
           {campsites.length > 0 && (
             <>
               <Button
-                variant="outlined"
+                variant="outline"
                 extraCssClasses="flex items-center gap-2 justify-between hover:bg-primary hover:text-white"
                 onClick={() => priceOnClick()}
               >
@@ -52,7 +52,7 @@ export default function FilterBar({
               </Button>
 
               <Button
-                variant="outlined"
+                variant="outline"
                 extraCssClasses="flex items-center gap-2 justify-between hover:bg-primary hover:text-white"
                 onClick={() => ratingOnClick()}
               >
@@ -69,7 +69,7 @@ export default function FilterBar({
               <div className="h-8 w-px bg-outline-variant mx-2"></div>
 
               <Button
-                variant="primary"
+                variant="secondary"
                 extraCssClasses="flex items-center gap-2 justify-between bg-primary"
                 onClick={() => redirect("/campsites")}
               >
