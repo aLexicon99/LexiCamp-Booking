@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Button from "./Button";
 
 export default function HeroSearch() {
   const [search, setSearch] = useState("");
@@ -22,7 +23,7 @@ export default function HeroSearch() {
     if (hasGuest) {
       return setGuests(hasGuest);
     }
-  }, [location, guests, hasGuest]);
+  }, [location, hasGuest]);
 
   const guestOptions = [
     { value: 3, text: "2 Adults, 1 Child" },
@@ -77,24 +78,13 @@ export default function HeroSearch() {
         className="w-full md:w-auto"
         href={`/campsites${search && `?location=${search.trim()}${checkIn && `&checkIn=${checkIn}`}${guests && `&guests=${guests}`}`}`}
       >
-        <button className="flex w-full transform items-center justify-center gap-2 rounded-md bg-[#fb8500] px-6 py-4 font-bold text-white transition-all hover:bg-[#e67a00] active:scale-95 md:w-auto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="28"
-            height="28"
-            viewBox="0 0 28 28"
-            fill="none"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <path
-              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79L20 20.49 21.49 19 15.5 14zM9.5 14A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"
-              stroke="white"
-              fill="white"
-            />
-          </svg>
+        <Button
+          variant="primary"
+          extraCssClasses="flex w-full transform items-center justify-center gap-2 rounded-md bg-[#fb8500] px-6 py-4 font-bold text-lg text-white transition-all hover:bg-[#e67a00] active:scale-95 md:w-auto"
+        >
+          <span className="material-symbols-outlined text-[20px]">Search</span>
           Search
-        </button>
+        </Button>
       </Link>
     </div>
   );
