@@ -12,6 +12,8 @@ export default function Page() {
   useEffect(() => {
     if (!user) {
       redirect("/login");
+    }else{
+      redirect("/my-bookings");
     }
   },[user]);
 

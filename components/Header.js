@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useAuth from "@/hooks/useAuth";
 import useIsClient from "@/hooks/useIsClient";
 
@@ -15,7 +15,7 @@ const allLinks = [
 
 export default function Header() {
   const pathname = usePathname();
-  const [user] = useAuth();
+  const [user, _, logout] = useAuth();
   const isClient = useIsClient();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -27,6 +27,13 @@ export default function Header() {
   const isActiveLink = (href) =>
     href === "/" ? pathname === href : pathname.startsWith(href);
   const closeMenu = () => setIsMenuOpen(false);
+
+  function askToLogOut() {
+    const confirmLogout = confirm(`Logout?`);
+    if (confirmLogout) {
+      return logout();
+    }
+  }
 
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-emerald-900/5 bg-stone-50 shadow-[0_4px_20px_rgba(27,67,50,0.03)] backdrop-blur-md">
@@ -70,9 +77,9 @@ export default function Header() {
           </button>
           <Link
             href="/user"
-            onClick={closeMenu}
+            onClick={() => (user ? askToLogOut() : closeMenu)}
             aria-label="User profile"
-            className="material-symbols-outlined cursor-pointer select-none text-[1.75rem] text-stone-500 transition-colors duration-200 hover:text-emerald-900"
+            className={`material-symbols-outlined cursor-pointer select-none text-[1.75rem] ${user ? 'text-red-500!' : 'text-stone-500'} transition-colors duration-200 hover:text-emerald-900`}
           >
             account_circle
           </Link>
