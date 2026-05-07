@@ -33,19 +33,19 @@
     "password": "aleks",
     "bookings": [
         {
-            "id": 1,
+            "id": 2,
             "location_id": "2093122",
             "checkin": "2026-04-01",
             "checkout": "2026-04-04"
         },
         {
-            "id": 2,
+            "id": 3,
             "location_id": "2091817",
             "checkin": "2026-03-09",
             "checkout": "2026-03-19"
         },
         {
-            "id": 3,
+            "id": 4,
             "location_id": "2084510",
             "checkin": "2026-01-16",
             "checkout": "2026-01-19"
@@ -61,19 +61,19 @@
     "password": "halime",
       "bookings": [
           {
-              "id": 1,
+              "id": 5,
               "location_id": "2092993",
               "checkin": "2026-04-27",
               "checkout": "2026-05-07"
           },
           {
-              "id" : 2,
+              "id" : 6,
               "location_id": "2093226",
               "checkin": "2026-04-07",
               "checkout": "2026-04-23"
           },
           {
-              "id" : 3,
+              "id" : 7,
               "location_id": "2089232",
               "checkin": "2026-03-09",
               "checkout": "2026-04-02"
@@ -89,7 +89,7 @@
     "password": "nayomi",
     "bookings": [
         {
-            "id": 1,
+            "id": 8,
             "location_id": "2169631",
             "checkin": "2026-03-09",
             "checkout": "2026-03-19"
@@ -105,7 +105,7 @@
     "password": "osman",
     "bookings": [
         {
-            "id": 1,
+            "id": 9,
             "location_id": "2169631",
             "checkin": "2026-03-09",
             "checkout": "2026-03-19"
@@ -121,7 +121,7 @@
     "password": "göran",
     "bookings": [
         {
-            "id": 1,
+            "id": 10,
             "location_id": "2169631",
             "checkin": "2026-03-09",
             "checkout": "2026-03-19"
