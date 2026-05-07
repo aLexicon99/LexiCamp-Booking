@@ -1,9 +1,9 @@
 # LexiCamp Booking
 
-LexiCamp Booking application is built with [Next.js](https://nextjs.org) and uses [TailwindCSS](https://tailwindcss.com/) style framework.
+LexiCamp Booking WebApplication/Platform is built with [Next.js](https://nextjs.org) and uses [TailwindCSS](https://tailwindcss.com/) style framework.
 
 
-### Install LexiCamp App
+### Install LexiCamp Booking WebApp
 
 First of all, clone the project to your local pc,
 then install the application dependencies (once) :
@@ -12,7 +12,7 @@ then install the application dependencies (once) :
 npm install
 ```
 
-## Start LexiCamp Booking App
+## Start the App
 
 Now, start the development server :
 
@@ -21,11 +21,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to use the app.
-
-Edit a page by modifying `app/[page]/page.js`. The page auto-updates as you edit the file.
-
-
-
 
 
 
@@ -43,6 +38,5 @@ Edit a page by modifying `app/[page]/page.js`. The page auto-updates as you edit
 
 ###
 
-Cloud App : 
-
-[LexiCamp](https://vercel.app)
+Cloud App is Deployed Here: 
+[LexiCamp Booking](https://lexi-camp-booking.vercel.app/)
