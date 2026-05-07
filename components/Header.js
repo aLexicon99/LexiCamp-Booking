@@ -107,7 +107,7 @@ export default function Header() {
                 onClick={closeMenu}
                 className={`rounded-lg px-4 py-3 text-base font-semibold transition-colors ${
                   isActive
-                    ? "bg-emerald-900 text-white"
+                    ? "bg-emerald-900 text-white!"
                     : "text-stone-600 hover:bg-emerald-900/5 hover:text-emerald-900"
                 }`}
               >
