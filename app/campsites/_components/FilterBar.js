@@ -1,19 +1,22 @@
 "use client";
 
 import { redirect } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export default function FilterBar({
   priceOnClick,
   ratingOnClick,
   campsites,
-  search,
-  guests,
-  date,
+  search
 }) {
-  const hasURLparams = window.location.search != "";
+  const searchParams = useSearchParams();
+  const hasURLparams = searchParams.get("location");
+  const guests = searchParams.get("guests");
+  const date = searchParams.get("checkIn");
+
   return (
     <section className="mb-10">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 bg-surface-container-lowest p-6 rounded-2xl shadow-[0_8px_30px_rgba(27,67,50,0.04)] border border-outline-variant/30">
+      <div className="flex flex-col shadow-md md:flex-row md:items-center justify-between gap-6 bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30">
         <div className="flex-1">
           <h1 className="text-2xl font-extrabold text-primary mb-2">
             Campgrounds
