@@ -3,7 +3,7 @@
 const CLEANING_FEE_PERCENTAGE = 0.5;
 const SERVICE_FEE_PERCENTAGE = 0.2;
 
-export default function BookingDetails({ campground, checkin, checkout }) {
+export default function BookingDetails({ campground, checkin, checkout, children }) {
   const checkinDate = new Date(checkin);
   const checkoutDate = new Date(checkout);
   const nights = Math.ceil(
@@ -94,18 +94,7 @@ export default function BookingDetails({ campground, checkin, checkout }) {
             </span>
           </div>
         </div>
-        <button className="w-full cursor-pointer bg-accent hover:bg-accent-hover text-white font-extrabold py-5 rounded-lg transition-all shadow-lg shadow-orange-500/20 active:scale-[0.98] uppercase tracking-widest text-sm">
-          Confirm &amp; Pay
-        </button>
-        <p className="text-center text-[10px] text-stone-400 mt-4 uppercase font-bold tracking-widest">
-          <span
-            className="material-symbols-outlined text-[12px] align-middle mr-1"
-            data-icon="lock"
-          >
-            lock
-          </span>
-          SSL Encrypted Payment
-        </p>
+        {children}
       </div>
     </div>
   );
