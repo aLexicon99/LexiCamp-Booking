@@ -6,6 +6,9 @@
     "username": "admin",
     "email":"admin@mail.com",
     "password": "admin",
+    "location": "Adminstaden",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [{"id": 0, "publisher":"Visa", "cardHolder":"Admin Adminsson", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"}],
     "bookings": [{ "id": 2169631 }]
   },
   {
@@ -15,51 +18,79 @@
     "username": "test",
     "email": "test@mail.com",
     "password": "test",
+    "location": "Teststaden",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [{"id": 0, "publisher":"Visa", "cardHolder":"Test Testsson", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"}],
     "bookings": []
   },
   {
     "id": 3,
-    "firstName": "Aleks",
-    "lastName": "C",
+    "firstName": "Aleksandar",
+    "lastName": "Cincarevic",
     "username": "aleks",
     "email": "aleks@mail.com",
     "password": "aleks",
+    "location": "Malmö",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [{"id": 0, "publisher":"Visa", "cardHolder":"Aleksandar Cincarevic", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"}],
     "bookings": [{ "id": 2169631 }, { "id": 2091817 }, { "id": 2084510 }]
   },
   {
     "id": 4,
     "firstName": "Halime",
-    "lastName": "T",
+    "lastName": "Turk",
     "username": "halime",
     "email": "halime@mail.com",
     "password": "halime",
+    "location": "Malmö",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [{"id": 0, "publisher":"Visa", "cardHolder":"Halime Turk", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"}],
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 5,
     "firstName": "Nayomi",
-    "lastName": "A",
+    "lastName": "Arvell",
     "username": "nayomi",
     "email": "nayomi@mail.com",
     "password": "nayomi",
+    "location": "Helsingborg",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [
+                    {"id": 0, "publisher":"Visa", "cardHolder":"Osman Osmani", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"},
+                    {"id": 1, "publisher":"Mastercard", "cardHolder":"Osman Osmani", "cardNumber": "1215 2253 3355 4285", "expDate": "2029-03-15", "securityCode": "333"}
+                  ],
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 6,
     "firstName": "Osman",
-    "lastName": "O",
+    "lastName": "Osmani",
     "username": "osman",
     "email": "osman@mail.com",
     "password": "osman",
+    "location": "Malmö",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [
+                      {"id": 0, "publisher":"Visa", "cardHolder":"Osman Osmani", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"},
+                      {"id": 1, "publisher":"Mastercard", "cardHolder":"Osman Osmani", "cardNumber": "1215 2253 3355 4285", "expDate": "2029-03-15", "securityCode": "333"}
+                    ],
     "bookings": [{ "id": 2169631 }]
   },
   {
     "id": 7,
     "firstName": "Göran",
-    "lastName": "R",
+    "lastName": "Rosenberg",
     "username": "göran",
     "email": "göran@mail.com",
     "password": "göran",
+    "location": "Tomelilla",
+    "bio": "Avid hiker and wilderness enthusiast.",
+    "paymentCards": [
+                      {"id": 0, "publisher":"Visa", "cardHolder":"Göran Rosenberg", "cardNumber": "1210 2355 5533 4242", "expDate": "2028-02-03", "securityCode": "123"},
+                      {"id": 1, "publisher":"Mastercard", "cardHolder":"Göran Rosenberg", "cardNumber": "1215 2253 3355 4285", "expDate": "2029-03-15", "securityCode": "333"},
+                      {"id": 2, "publisher":"Re:member", "cardHolder":"Göran Rosenberg", "cardNumber": "1215 2253 4642 4285", "expDate": "2029-03-120", "securityCode": "450"}
+                    ],
     "bookings": [{ "id": 2169631 }]
   }
 ]
